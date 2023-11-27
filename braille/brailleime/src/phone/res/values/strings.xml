@@ -17,7 +17,8 @@
   <!-- The braille ime display name for multiple languages selected. %s is the currently using braille language name. [CHAR_LIMIT=130] -->
   <string name="multiple_languages_braille_ime_displayed_name">braille keyboard, %s</string>
   <!-- Caption to help confused people to know what the app is. [CHAR LIMIT=100] -->
-  <string name="input_view_caption">TalkBack braille keyboard - for help, visit g.co/help/braille</string>
+<!--  <string name="input_view_caption">TalkBack braille keyboard - for help, visit g.co/help/braille</string>-->
+  <string name="input_view_caption">Bluebird - your best Braille supporter</string>
   <!-- Perform enter action: move to next field. [CHAR_LIMIT=50] -->
   <string name="perform_action_next">Next</string>
   <!-- Perform enter action: submitting. [CHAR_LIMIT=50] -->

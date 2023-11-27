@@ -1,0 +1,86 @@
+{
+  "buildFiles": [
+    "F:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\braille\\translate\\src\\phone\\jni\\Android.mk",
+    "F:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\braille\\translate\\src\\phone\\jni\\Application.mk"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\DELL\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+      "NDK_PROJECT_PATH\u003dnull",
+      "APP_BUILD_SCRIPT\u003dF:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\braille\\translate\\src\\phone\\jni\\Android.mk",
+      "NDK_APPLICATION_MK\u003dF:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\braille\\translate\\src\\phone\\jni\\Application.mk",
+      "APP_ABI\u003darmeabi-v7a",
+      "NDK_ALL_ABIS\u003darmeabi-v7a",
+      "NDK_DEBUG\u003d1",
+      "APP_PLATFORM\u003dandroid-26",
+      "NDK_OUT\u003dF:/2Study/4Nam4/1Sem1/HMI/bluebird/braille/translate/build/intermediates/ndkBuild/phoneDebug/obj",
+      "NDK_LIBS_OUT\u003dF:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\braille\\translate\\build\\intermediates\\ndkBuild\\phoneDebug\\lib",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\DELL\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+    "NDK_PROJECT_PATH\u003dnull",
+    "APP_BUILD_SCRIPT\u003dF:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\braille\\translate\\src\\phone\\jni\\Android.mk",
+    "NDK_APPLICATION_MK\u003dF:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\braille\\translate\\src\\phone\\jni\\Application.mk",
+    "APP_ABI\u003darmeabi-v7a",
+    "NDK_ALL_ABIS\u003darmeabi-v7a",
+    "NDK_DEBUG\u003d1",
+    "APP_PLATFORM\u003dandroid-26",
+    "NDK_OUT\u003dF:/2Study/4Nam4/1Sem1/HMI/bluebird/braille/translate/build/intermediates/ndkBuild/phoneDebug/obj",
+    "NDK_LIBS_OUT\u003dF:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\braille\\translate\\build\\intermediates\\ndkBuild\\phoneDebug\\lib",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "louiswrap-phoneDebug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "C:\\Users\\DELL\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dF:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\braille\\translate\\src\\phone\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dF:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\braille\\translate\\src\\phone\\jni\\Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-26",
+        "NDK_OUT\u003dF:/2Study/4Nam4/1Sem1/HMI/bluebird/braille/translate/build/intermediates/ndkBuild/phoneDebug/obj",
+        "NDK_LIBS_OUT\u003dF:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\braille\\translate\\build\\intermediates\\ndkBuild\\phoneDebug\\lib",
+        "F:/2Study/4Nam4/1Sem1/HMI/bluebird/braille/translate/build/intermediates/ndkBuild/phoneDebug/obj/local/armeabi-v7a/liblouiswrap.so"
+      ],
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "louiswrap",
+      "output": "F:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\braille\\translate\\build\\intermediates\\ndkBuild\\phoneDebug\\obj\\local\\armeabi-v7a\\liblouiswrap.so"
+    },
+    "louis-phoneDebug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "C:\\Users\\DELL\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\ndk-build.cmd",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003dF:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\braille\\translate\\src\\phone\\jni\\Android.mk",
+        "NDK_APPLICATION_MK\u003dF:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\braille\\translate\\src\\phone\\jni\\Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-26",
+        "NDK_OUT\u003dF:/2Study/4Nam4/1Sem1/HMI/bluebird/braille/translate/build/intermediates/ndkBuild/phoneDebug/obj",
+        "NDK_LIBS_OUT\u003dF:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\braille\\translate\\build\\intermediates\\ndkBuild\\phoneDebug\\lib",
+        "F:/2Study/4Nam4/1Sem1/HMI/bluebird/braille/translate/build/intermediates/ndkBuild/phoneDebug/obj/local/armeabi-v7a/liblouis.so"
+      ],
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "louis",
+      "output": "F:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\braille\\translate\\build\\intermediates\\ndkBuild\\phoneDebug\\obj\\local\\armeabi-v7a\\liblouis.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cCompilerExecutable": "C:\\Users\\DELL\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\DELL\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cc"
+  ]
+}

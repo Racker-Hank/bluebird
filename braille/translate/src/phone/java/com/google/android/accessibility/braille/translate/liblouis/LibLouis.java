@@ -44,6 +44,9 @@ public class LibLouis implements TranslatorFactory {
     if (codeName.equals("ARABIC")) {
       return new LibLouisTranslatorArabic(context);
     }
+    if (codeName.equals("VIETNAMESE")) {
+      return new LibLouisTranslatorVietnamese(context);
+    }
     throw new IllegalArgumentException("unrecognized code " + codeName);
   }
 }

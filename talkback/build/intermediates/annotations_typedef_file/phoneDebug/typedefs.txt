@@ -1,0 +1,9 @@
+D com/google/android/accessibility/talkback/analytics/TalkBackAnalytics$GestureId
+D com/google/android/accessibility/talkback/compositor/parsetree/ParseTree$Operator
+D com/google/android/accessibility/talkback/compositor/parsetree/ParseTree$OperatorClass
+D com/google/android/accessibility/talkback/compositor/parsetree/ParseTreeResourceNode$Type
+D com/google/android/accessibility/talkback/controller/TelevisionNavigationController$RemoteMode
+D com/google/android/accessibility/talkback/gesture/GestureShortcutMapping$GestureType
+D com/google/android/accessibility/talkback/gesture/GestureShortcutMapping$RTLType
+D com/google/android/accessibility/talkback/preference/TalkBackPreferenceFilter$FilterFlag
+D com/google/android/accessibility/talkback/preference/base/GestureListPreference$ActionViewType

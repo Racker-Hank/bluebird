@@ -1,0 +1,17 @@
+Executable : C:\Users\DELL\AppData\Local\Android\Sdk\ndk\21.4.7075529\ndk-build.cmd
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\translate\src\phone\jni\Android.mk
+NDK_APPLICATION_MK=F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\translate\src\phone\jni\Application.mk
+APP_ABI=arm64-v8a
+NDK_ALL_ABIS=arm64-v8a
+NDK_DEBUG=1
+APP_PLATFORM=android-26
+NDK_OUT=F:/2Study/4Nam4/1Sem1/HMI/bluebird/braille/translate/build/intermediates/ndkBuild/phoneDebug/obj
+NDK_LIBS_OUT=F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\translate\build\intermediates\ndkBuild\phoneDebug\lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+

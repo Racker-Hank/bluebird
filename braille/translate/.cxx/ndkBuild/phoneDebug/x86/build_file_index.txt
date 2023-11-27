@@ -1,0 +1,2 @@
+F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\translate\src\phone\jni\Android.mk
+F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\translate\src\phone\jni\Application.mk

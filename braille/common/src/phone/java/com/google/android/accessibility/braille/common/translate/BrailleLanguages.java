@@ -36,6 +36,7 @@ public class BrailleLanguages {
   public static final String PRINT_LANGUAGE_AR = "ar";
   public static final String PRINT_LANGUAGE_FR = "fr";
   public static final String PRINT_LANGUAGE_PL = "pl";
+  public static final String PRINT_LANGUAGE_VI = "vi";
 
   /**
    * Finds and produces a {@link EditBuffer} based on {@code code}, {@code translatorFactory}, and
@@ -82,6 +83,18 @@ public class BrailleLanguages {
    */
   // LINT.IfChange(supported_languages)
   public enum Code {
+    VIETNAMESE(PRINT_LANGUAGE_VI) {
+      @Override
+      public CharSequence getUserFacingName(Resources resources) {
+        return resources.getString(R.string.code_user_facing_name_vi);
+      }
+
+      @Override
+      EditBuffer createEditBuffer(
+          Context context, TalkBackSpeaker talkBack, BrailleTranslator translator) {
+        return new EditBufferVietnamese(context, translator, talkBack);
+      }
+    },
     ARABIC(PRINT_LANGUAGE_AR) {
       @Override
       public CharSequence getUserFacingName(Resources resources) {

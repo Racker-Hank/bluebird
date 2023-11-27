@@ -1,0 +1,58 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\build\\intermediates\\incremental\\mergePhoneDebugResources\\merged.dir\\values-v29\\values-v29.xml",
+            "map": [
+                {
+                    "source": "F:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\talkback\\build\\intermediates\\packaged_res\\phone\\debug\\values-v29\\values-v29.xml",
+                    "from": {
+                        "startLines": "2,5,9,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,189,436,652",
+                        "endLines": "4,8,12,18",
+                        "endColumns": "10,10,10,10",
+                        "endOffsets": "184,431,647,1120"
+                    },
+                    "to": {
+                        "startLines": "8,15,27,31",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "438,766,1465,1681",
+                        "endLines": "10,18,30,36",
+                        "endColumns": "10,10,10,10",
+                        "endOffsets": "567,1008,1676,2149"
+                    }
+                },
+                {
+                    "source": "F:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\braille\\brailleime\\build\\intermediates\\packaged_res\\phone\\debug\\values-v29\\values-v29.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,249,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "10,10,10",
+                        "endOffsets": "244,494,696"
+                    },
+                    "to": {
+                        "startLines": "11,19,23",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "572,1013,1263",
+                        "endLines": "14,22,26",
+                        "endColumns": "10,10,10",
+                        "endOffsets": "761,1258,1460"
+                    }
+                },
+                {
+                    "source": "F:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\utils\\build\\intermediates\\packaged_res\\phone\\debug\\values-v29\\values-v29.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,153",
+                        "endLines": "2,7",
+                        "endColumns": "97,10",
+                        "endOffsets": "148,433"
+                    }
+                }
+            ]
+        }
+    ]
+}

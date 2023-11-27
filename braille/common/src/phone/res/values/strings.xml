@@ -35,6 +35,8 @@
   <string name="code_user_facing_name_fr">French</string>
   <!-- Language list preference item for the Polish language. [CHAR_LIMIT=40] -->
   <string name="code_user_facing_name_pl">Polish</string>
+  <!-- Language list preference item for the Vietnamese language. [CHAR_LIMIT=40] -->
+  <string name="code_user_facing_name_vi">Vietnamese</string>
 
 
   <!-- Layout Options -->

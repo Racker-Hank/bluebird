@@ -10,7 +10,8 @@
   <string name="switched_to_ueb_uncontracted_announcement">Switched to UEB uncontracted</string>
   <string name="braille_ime_displayed_name">braille keyboard</string>
   <string name="multiple_languages_braille_ime_displayed_name">braille keyboard, %s</string>
-  <string name="input_view_caption">TalkBack braille keyboard – for help, visit g.co/help/braille</string>
+<!--  <string name="input_view_caption">TalkBack braille keyboard – for help, visit g.co/help/braille</string>-->
+  <string name="input_view_caption">Bluebird - your best Braille supporter</string>
   <string name="perform_action_next">Next</string>
   <string name="perform_action_submitting">Submitting text</string>
   <string name="calibration_step1_hold_left_finger_announcement">Updating dot position. First, let’s record the dots on your left hand. Touch and hold the screen with the middle three fingers of your left hand.</string>
@@ -35,6 +36,7 @@
   <string name="code_user_facing_name_ar">Arabic</string>
   <string name="code_user_facing_name_fr">French</string>
   <string name="code_user_facing_name_pl">Polish</string>
+  <string name="code_user_facing_name_vi">Vietnamese</string>
   <string name="title_pref_accumulate_presses">Include all pressed dots</string>
   <string name="summary_pref_accumulate_presses">Each pressed dot is part of the input, even if the dot is released before other dots</string>
   <string name="title_pref_reverse_dots">Reverse dots</string>

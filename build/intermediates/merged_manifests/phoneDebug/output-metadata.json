@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "MERGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "group11.bluebird",
+  "variantName": "phoneDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionName": "TfPu_release_13_0-2023_11_15_1625",
+      "outputFile": "AndroidManifest.xml"
+    }
+  ]
+}

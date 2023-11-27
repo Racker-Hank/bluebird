@@ -1,0 +1,922 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml:2:3-11:12
+INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml:2:3-11:12
+INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml:2:3-11:12
+MERGED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:2:1-243:12
+MERGED from [:uiunderstanding] F:\2Study\4Nam4\1Sem1\HMI\bluebird\uiunderstanding\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:2:1-7:12
+MERGED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:2:1-56:12
+MERGED from [:brailledisplay] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailledisplay\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:2:1-8:12
+MERGED from [:brailleimeanalytics] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleimeanalytics\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:2:1-7:12
+MERGED from [:braillecommon] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\common\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:2:1-11:12
+MERGED from [:brailletranslate] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\translate\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:2:1-11:12
+MERGED from [:brailleinterfaces] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\interfaces\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:2:1-8:12
+MERGED from [:utils] F:\2Study\4Nam4\1Sem1\HMI\bluebird\utils\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\1a1c47becdf79eda65924bb3753ca18a\transformed\jetified-play-services-mlkit-text-recognition-19.0.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.material:material:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\2be286f360b7ad196737345bfdb8d65d\transformed\material-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:2:1-46:12
+MERGED from [com.google.android.support:wearable:2.8.1] C:\Users\DELL\.gradle\caches\transforms-3\c2e2f801adee039422de84039dfb2917\transformed\jetified-wearable-2.8.1\AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\DELL\.gradle\caches\transforms-3\e286f99b02c94c7d82ab3b4fd51dfba4\transformed\preference-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\DELL\.gradle\caches\transforms-3\9f9dfbf1599a55ed6cb0323a37d6b134\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\DELL\.gradle\caches\transforms-3\fdf4f09bf5c576290254ae03aa9fa82e\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\DELL\.gradle\caches\transforms-3\91b5f8ff4cef1ce819fc49a09d40ff5f\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.wear:wear:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\ed4dff1867ab8a9966d8728bbeea9473\transformed\wear-1.3.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\DELL\.gradle\caches\transforms-3\fb69bc40fabc690fdac9fca854015f51\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\DELL\.gradle\caches\transforms-3\958d45337ab78a40b09f7b71fdc23708\transformed\recyclerview-1.3.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\DELL\.gradle\caches\transforms-3\faafac25bb0a94cc78a7c6f5e28029e1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61e92b5bb9e667873063812bdb162165\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\DELL\.gradle\caches\transforms-3\605dbdabdbe53ec730ca6184eab21ce1\transformed\jetified-vision-interfaces-16.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5b489e4efdac41882f28317843d98bac\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\9cb9819555e6bfd599641c7d60c2ba34\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\a429808264ef46ead720009b14decfb9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\ff7b2cf4f02da70e522d47d7d9c6fd73\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\a643031fb069b09472248931328ac72a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\b842738c09969a8cc3ecc5e9b45b299b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\39ca032e97c17c03d0b459d5934952cd\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\DELL\.gradle\caches\transforms-3\187f8eaf5b915bd3906fd331418852da\transformed\jetified-fragment-ktx-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\DELL\.gradle\caches\transforms-3\7a12ee7eaa0d6f0484d0899ba9f4f355\transformed\fragment-1.5.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\6dedeb185e3975ff51029cd3eae6c2ee\transformed\jetified-activity-ktx-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\73dc8d62db3b35143c786056d18eb05a\transformed\jetified-activity-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\8e015ea2efc4a41fa3726c283ee975f9\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\74feb9be1fd65312f86811dba7e50149\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\ad31f6392bb2eaf736c622636d7223fe\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\a38313a75037b230e7c0e9916529b045\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\72e9463b480fd39f726ae1bafae47679\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\21d5ad6a8bef2d67525f51ef160339bd\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\66200a1d845c677650a135d7f5a1c8bd\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\0d699bf28e062afea1880482701ccbdd\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\cb0a8d92d15766d19324a07bcb43471d\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\45ce7ebebf83fd1d9d91913861fef67a\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\ba60372757859e02016aa09e40c10ec1\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\4a54937ab5cb91afef0a7a155ea3b0c6\transformed\percentlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\4e0076ac3d2aee710686881f75f96f64\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\DELL\.gradle\caches\transforms-3\9699a273f44b1d985b6af4dc5df81d40\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\6c3246db4921af0462dc130b7cfd06cc\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\9546d985545de998a08080279dab183e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61fe9ee4aa7319cc442de0b937f5f56b\transformed\localbroadcastmanager-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\81d1f8327f36881f854f1c857f20d81d\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\f18df579479bf28e3cfb1784a1bad80e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\db7bc504dbc258d841d8a67f70d5a171\transformed\jetified-lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\0064582544716af8acb3cefaf6541f56\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\4b6c553471706748dba95813857be66b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\22a11ed570fe737732de59aa8ac95b3e\transformed\jetified-savedstate-ktx-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\2ac7d6b8958373581b6250ea458d00a4\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\DELL\.gradle\caches\transforms-3\36a81ce757c20735ac97b390256d3cff\transformed\jetified-transport-api-2.2.1\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\DELL\.gradle\caches\transforms-3\b26fab4f86de03aa9abc78ad08741888\transformed\jetified-firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\DELL\.gradle\caches\transforms-3\8f8a29a9cdb83bbfbdc150d9a256a7fd\transformed\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\c14cecbd681ef6c7af27c52d0e69fff5\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\DELL\.gradle\caches\transforms-3\c7c4cd532353edd933a537f18f603a7d\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\f84dec0ad25a56df81562f6e43723987\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\DELL\.gradle\caches\transforms-3\d35f92c186b4ab8d6b12f4dbdadb8205\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\29dc5cdc966f5d496270e8ba6284f57c\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\c246da7298b9615bd5310066b72d01ac\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\591c17892b79dad2f3a6dd69d01f19b3\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\e1958420fe929a5121f8448dcd19b8cd\transformed\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\28946e10d14f93093b75e444cc874933\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\06627391ca2c2cdb86b7b8c148c67798\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\a784810e673b1d2040a440aa53f8f8fd\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\DELL\.gradle\caches\transforms-3\96c63df801e6905d980b3f1b6f68064f\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
+INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml:2:3-11:12
+INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml:2:3-11:12
+	package
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml
+		INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml:2:3-11:12
+		INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml:2:13-71
+uses-sdk
+INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml
+INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml
+MERGED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:6:5-44
+MERGED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:6:5-44
+MERGED from [:uiunderstanding] F:\2Study\4Nam4\1Sem1\HMI\bluebird\uiunderstanding\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:5:5-44
+MERGED from [:uiunderstanding] F:\2Study\4Nam4\1Sem1\HMI\bluebird\uiunderstanding\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:5:5-44
+MERGED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:6:5-8:41
+MERGED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:6:5-8:41
+MERGED from [:brailledisplay] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailledisplay\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:6:5-44
+MERGED from [:brailledisplay] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailledisplay\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:6:5-44
+MERGED from [:brailleimeanalytics] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleimeanalytics\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:5:5-44
+MERGED from [:brailleimeanalytics] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleimeanalytics\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:5:5-44
+MERGED from [:braillecommon] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\common\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:7:5-9:41
+MERGED from [:braillecommon] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\common\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:7:5-9:41
+MERGED from [:brailletranslate] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\translate\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:7:5-9:41
+MERGED from [:brailletranslate] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\translate\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:7:5-9:41
+MERGED from [:brailleinterfaces] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\interfaces\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:6:5-44
+MERGED from [:brailleinterfaces] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\interfaces\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:6:5-44
+MERGED from [:utils] F:\2Study\4Nam4\1Sem1\HMI\bluebird\utils\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:5:5-44
+MERGED from [:utils] F:\2Study\4Nam4\1Sem1\HMI\bluebird\utils\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\1a1c47becdf79eda65924bb3753ca18a\transformed\jetified-play-services-mlkit-text-recognition-19.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\1a1c47becdf79eda65924bb3753ca18a\transformed\jetified-play-services-mlkit-text-recognition-19.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.material:material:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\2be286f360b7ad196737345bfdb8d65d\transformed\material-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\2be286f360b7ad196737345bfdb8d65d\transformed\material-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.support:wearable:2.8.1] C:\Users\DELL\.gradle\caches\transforms-3\c2e2f801adee039422de84039dfb2917\transformed\jetified-wearable-2.8.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.support:wearable:2.8.1] C:\Users\DELL\.gradle\caches\transforms-3\c2e2f801adee039422de84039dfb2917\transformed\jetified-wearable-2.8.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\DELL\.gradle\caches\transforms-3\e286f99b02c94c7d82ab3b4fd51dfba4\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\DELL\.gradle\caches\transforms-3\e286f99b02c94c7d82ab3b4fd51dfba4\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\DELL\.gradle\caches\transforms-3\9f9dfbf1599a55ed6cb0323a37d6b134\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\DELL\.gradle\caches\transforms-3\9f9dfbf1599a55ed6cb0323a37d6b134\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\DELL\.gradle\caches\transforms-3\fdf4f09bf5c576290254ae03aa9fa82e\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\DELL\.gradle\caches\transforms-3\fdf4f09bf5c576290254ae03aa9fa82e\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\DELL\.gradle\caches\transforms-3\91b5f8ff4cef1ce819fc49a09d40ff5f\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\DELL\.gradle\caches\transforms-3\91b5f8ff4cef1ce819fc49a09d40ff5f\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.wear:wear:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\ed4dff1867ab8a9966d8728bbeea9473\transformed\wear-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.wear:wear:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\ed4dff1867ab8a9966d8728bbeea9473\transformed\wear-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\DELL\.gradle\caches\transforms-3\fb69bc40fabc690fdac9fca854015f51\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\DELL\.gradle\caches\transforms-3\fb69bc40fabc690fdac9fca854015f51\transformed\jetified-viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\DELL\.gradle\caches\transforms-3\958d45337ab78a40b09f7b71fdc23708\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\DELL\.gradle\caches\transforms-3\958d45337ab78a40b09f7b71fdc23708\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\DELL\.gradle\caches\transforms-3\faafac25bb0a94cc78a7c6f5e28029e1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\DELL\.gradle\caches\transforms-3\faafac25bb0a94cc78a7c6f5e28029e1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61e92b5bb9e667873063812bdb162165\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61e92b5bb9e667873063812bdb162165\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\DELL\.gradle\caches\transforms-3\605dbdabdbe53ec730ca6184eab21ce1\transformed\jetified-vision-interfaces-16.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] C:\Users\DELL\.gradle\caches\transforms-3\605dbdabdbe53ec730ca6184eab21ce1\transformed\jetified-vision-interfaces-16.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5b489e4efdac41882f28317843d98bac\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5b489e4efdac41882f28317843d98bac\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\9cb9819555e6bfd599641c7d60c2ba34\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\9cb9819555e6bfd599641c7d60c2ba34\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\a429808264ef46ead720009b14decfb9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\a429808264ef46ead720009b14decfb9\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\ff7b2cf4f02da70e522d47d7d9c6fd73\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\ff7b2cf4f02da70e522d47d7d9c6fd73\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\a643031fb069b09472248931328ac72a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\a643031fb069b09472248931328ac72a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\b842738c09969a8cc3ecc5e9b45b299b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\b842738c09969a8cc3ecc5e9b45b299b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\39ca032e97c17c03d0b459d5934952cd\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\39ca032e97c17c03d0b459d5934952cd\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\DELL\.gradle\caches\transforms-3\187f8eaf5b915bd3906fd331418852da\transformed\jetified-fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\DELL\.gradle\caches\transforms-3\187f8eaf5b915bd3906fd331418852da\transformed\jetified-fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\DELL\.gradle\caches\transforms-3\7a12ee7eaa0d6f0484d0899ba9f4f355\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] C:\Users\DELL\.gradle\caches\transforms-3\7a12ee7eaa0d6f0484d0899ba9f4f355\transformed\fragment-1.5.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\6dedeb185e3975ff51029cd3eae6c2ee\transformed\jetified-activity-ktx-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\6dedeb185e3975ff51029cd3eae6c2ee\transformed\jetified-activity-ktx-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\73dc8d62db3b35143c786056d18eb05a\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\73dc8d62db3b35143c786056d18eb05a\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\8e015ea2efc4a41fa3726c283ee975f9\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\8e015ea2efc4a41fa3726c283ee975f9\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\74feb9be1fd65312f86811dba7e50149\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\74feb9be1fd65312f86811dba7e50149\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\ad31f6392bb2eaf736c622636d7223fe\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\ad31f6392bb2eaf736c622636d7223fe\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\a38313a75037b230e7c0e9916529b045\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\a38313a75037b230e7c0e9916529b045\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\72e9463b480fd39f726ae1bafae47679\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\72e9463b480fd39f726ae1bafae47679\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\21d5ad6a8bef2d67525f51ef160339bd\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\21d5ad6a8bef2d67525f51ef160339bd\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\66200a1d845c677650a135d7f5a1c8bd\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\66200a1d845c677650a135d7f5a1c8bd\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\0d699bf28e062afea1880482701ccbdd\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\0d699bf28e062afea1880482701ccbdd\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\cb0a8d92d15766d19324a07bcb43471d\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\cb0a8d92d15766d19324a07bcb43471d\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\45ce7ebebf83fd1d9d91913861fef67a\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\45ce7ebebf83fd1d9d91913861fef67a\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\ba60372757859e02016aa09e40c10ec1\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\ba60372757859e02016aa09e40c10ec1\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\4a54937ab5cb91afef0a7a155ea3b0c6\transformed\percentlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\4a54937ab5cb91afef0a7a155ea3b0c6\transformed\percentlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\4e0076ac3d2aee710686881f75f96f64\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\4e0076ac3d2aee710686881f75f96f64\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\DELL\.gradle\caches\transforms-3\9699a273f44b1d985b6af4dc5df81d40\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\DELL\.gradle\caches\transforms-3\9699a273f44b1d985b6af4dc5df81d40\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\6c3246db4921af0462dc130b7cfd06cc\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\6c3246db4921af0462dc130b7cfd06cc\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\9546d985545de998a08080279dab183e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\9546d985545de998a08080279dab183e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61fe9ee4aa7319cc442de0b937f5f56b\transformed\localbroadcastmanager-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61fe9ee4aa7319cc442de0b937f5f56b\transformed\localbroadcastmanager-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\81d1f8327f36881f854f1c857f20d81d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\81d1f8327f36881f854f1c857f20d81d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\f18df579479bf28e3cfb1784a1bad80e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\f18df579479bf28e3cfb1784a1bad80e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\db7bc504dbc258d841d8a67f70d5a171\transformed\jetified-lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\db7bc504dbc258d841d8a67f70d5a171\transformed\jetified-lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\0064582544716af8acb3cefaf6541f56\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\0064582544716af8acb3cefaf6541f56\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\4b6c553471706748dba95813857be66b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\4b6c553471706748dba95813857be66b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\22a11ed570fe737732de59aa8ac95b3e\transformed\jetified-savedstate-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\22a11ed570fe737732de59aa8ac95b3e\transformed\jetified-savedstate-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\2ac7d6b8958373581b6250ea458d00a4\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\2ac7d6b8958373581b6250ea458d00a4\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\DELL\.gradle\caches\transforms-3\36a81ce757c20735ac97b390256d3cff\transformed\jetified-transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\DELL\.gradle\caches\transforms-3\36a81ce757c20735ac97b390256d3cff\transformed\jetified-transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\DELL\.gradle\caches\transforms-3\b26fab4f86de03aa9abc78ad08741888\transformed\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\DELL\.gradle\caches\transforms-3\b26fab4f86de03aa9abc78ad08741888\transformed\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\DELL\.gradle\caches\transforms-3\8f8a29a9cdb83bbfbdc150d9a256a7fd\transformed\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\DELL\.gradle\caches\transforms-3\8f8a29a9cdb83bbfbdc150d9a256a7fd\transformed\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\c14cecbd681ef6c7af27c52d0e69fff5\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\c14cecbd681ef6c7af27c52d0e69fff5\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\DELL\.gradle\caches\transforms-3\c7c4cd532353edd933a537f18f603a7d\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\DELL\.gradle\caches\transforms-3\c7c4cd532353edd933a537f18f603a7d\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\f84dec0ad25a56df81562f6e43723987\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\DELL\.gradle\caches\transforms-3\f84dec0ad25a56df81562f6e43723987\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\DELL\.gradle\caches\transforms-3\d35f92c186b4ab8d6b12f4dbdadb8205\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\DELL\.gradle\caches\transforms-3\d35f92c186b4ab8d6b12f4dbdadb8205\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\29dc5cdc966f5d496270e8ba6284f57c\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\29dc5cdc966f5d496270e8ba6284f57c\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\c246da7298b9615bd5310066b72d01ac\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\c246da7298b9615bd5310066b72d01ac\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\591c17892b79dad2f3a6dd69d01f19b3\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\591c17892b79dad2f3a6dd69d01f19b3\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\e1958420fe929a5121f8448dcd19b8cd\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\e1958420fe929a5121f8448dcd19b8cd\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\28946e10d14f93093b75e444cc874933\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\28946e10d14f93093b75e444cc874933\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\06627391ca2c2cdb86b7b8c148c67798\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\06627391ca2c2cdb86b7b8c148c67798\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\a784810e673b1d2040a440aa53f8f8fd\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\a784810e673b1d2040a440aa53f8f8fd\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\DELL\.gradle\caches\transforms-3\96c63df801e6905d980b3f1b6f68064f\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\DELL\.gradle\caches\transforms-3\96c63df801e6905d980b3f1b6f68064f\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml
+INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml
+		INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml
+		INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\src\main\AndroidManifest.xml
+queries
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:20:5-27:15
+intent#action:name:android.intent.action.TTS_SERVICE
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:21:9-23:18
+action#android.intent.action.TTS_SERVICE
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:22:13-72
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:22:21-69
+intent#action:name:android.speech.RecognitionService
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:24:9-26:18
+action#android.speech.RecognitionService
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:25:13-72
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:25:21-69
+uses-feature#android.hardware.microphone
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:30:5-32:36
+	android:required
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:32:9-33
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:31:9-51
+uses-feature#android.hardware.location
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:34:9-49
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:38:5-74
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:38:22-71
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:41:5-75
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:41:22-72
+uses-permission#android.permission.VIBRATE
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:44:5-66
+MERGED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:11:5-66
+MERGED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:44:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:47:5-68
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:47:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:50:5-80
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:50:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:53:5-71
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:53:22-68
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:56:5-77
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:56:22-74
+uses-permission#android.permission.INTERNET
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:59:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:59:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:60:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:60:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:61:5-81
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:61:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:64:5-77
+MERGED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:13:5-77
+MERGED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:64:22-74
+uses-permission#android.permission.GET_PACKAGE_SIZE
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:67:5-75
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:67:22-72
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:70:5-98
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:70:22-95
+uses-feature#android.hardware.touchscreen
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:73:5-75:36
+	android:required
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:75:9-33
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:74:9-52
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:76:5-78:36
+	android:required
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:78:9-33
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:77:9-61
+application
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:80:5-241:19
+MERGED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:13:5-54:19
+MERGED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:13:5-54:19
+MERGED from [com.google.android.material:material:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\2be286f360b7ad196737345bfdb8d65d\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\2be286f360b7ad196737345bfdb8d65d\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:15:5-44:19
+MERGED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:15:5-44:19
+MERGED from [com.google.android.support:wearable:2.8.1] C:\Users\DELL\.gradle\caches\transforms-3\c2e2f801adee039422de84039dfb2917\transformed\jetified-wearable-2.8.1\AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.support:wearable:2.8.1] C:\Users\DELL\.gradle\caches\transforms-3\c2e2f801adee039422de84039dfb2917\transformed\jetified-wearable-2.8.1\AndroidManifest.xml:9:5-13:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\DELL\.gradle\caches\transforms-3\9f9dfbf1599a55ed6cb0323a37d6b134\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\DELL\.gradle\caches\transforms-3\9f9dfbf1599a55ed6cb0323a37d6b134\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.wear:wear:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\ed4dff1867ab8a9966d8728bbeea9473\transformed\wear-1.3.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.wear:wear:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\ed4dff1867ab8a9966d8728bbeea9473\transformed\wear-1.3.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\DELL\.gradle\caches\transforms-3\faafac25bb0a94cc78a7c6f5e28029e1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\DELL\.gradle\caches\transforms-3\faafac25bb0a94cc78a7c6f5e28029e1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61e92b5bb9e667873063812bdb162165\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61e92b5bb9e667873063812bdb162165\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5b489e4efdac41882f28317843d98bac\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5b489e4efdac41882f28317843d98bac\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\9cb9819555e6bfd599641c7d60c2ba34\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\9cb9819555e6bfd599641c7d60c2ba34\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\6c3246db4921af0462dc130b7cfd06cc\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\6c3246db4921af0462dc130b7cfd06cc\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\9546d985545de998a08080279dab183e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\9546d985545de998a08080279dab183e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\f18df579479bf28e3cfb1784a1bad80e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\f18df579479bf28e3cfb1784a1bad80e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\29dc5cdc966f5d496270e8ba6284f57c\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\29dc5cdc966f5d496270e8ba6284f57c\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\DELL\.gradle\caches\transforms-3\96c63df801e6905d980b3f1b6f68064f\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\DELL\.gradle\caches\transforms-3\96c63df801e6905d980b3f1b6f68064f\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\6c3246db4921af0462dc130b7cfd06cc\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:80:18-44
+receiver#com.google.android.accessibility.talkback.BootReceiver
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:81:9-91:20
+	android:exported
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:84:13-36
+	android:directBootAware
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:83:13-43
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:82:13-82
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED+category:name:android.intent.category.DEFAULT
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:85:13-90:29
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:86:17-86
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:86:25-83
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:87:17-79
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:87:25-76
+category#android.intent.category.DEFAULT
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:89:17-76
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:89:27-73
+service#com.google.android.marvin.talkback.TalkBackService
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:94:9-113:19
+	android:label
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:99:13-51
+	android:exported
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:97:13-36
+	android:permission
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:100:13-79
+	android:settingsActivity
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:101:13-88
+	android:icon
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:98:13-42
+	android:directBootAware
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:96:13-43
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:95:13-78
+intent-filter#action:name:android.accessibilityservice.AccessibilityService+category:name:android.accessibilityservice.category.FEEDBACK_AUDIBLE+category:name:android.accessibilityservice.category.FEEDBACK_HAPTIC+category:name:android.accessibilityservice.category.FEEDBACK_SPOKEN
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:102:13-108:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:103:17-92
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:103:25-89
+category#android.accessibilityservice.category.FEEDBACK_AUDIBLE
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:105:17-99
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:105:27-96
+category#android.accessibilityservice.category.FEEDBACK_HAPTIC
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:106:17-98
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:106:27-95
+category#android.accessibilityservice.category.FEEDBACK_SPOKEN
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:107:17-98
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:107:27-95
+meta-data#android.accessibilityservice
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:110:13-112:64
+	android:resource
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:112:17-61
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:111:17-60
+service#com.google.android.accessibility.talkback.ipc.IpcService
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:114:9-119:50
+	android:enabled
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:116:13-35
+	android:label
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:119:13-47
+	android:exported
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:117:13-37
+	android:icon
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:118:13-42
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:115:13-84
+activity#com.android.talkback.TalkBackPreferencesActivity
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:122:9-136:20
+	android:label
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:126:13-63
+	android:launchMode
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:127:13-43
+	android:exported
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:125:13-36
+	tools:ignore
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:130:13-44
+	android:configChanges
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:124:13-59
+	android:theme
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:129:13-52
+	android:taskAffinity
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:128:13-94
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:123:13-76
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.accessibilityservice.SERVICE_SETTINGS
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:131:13-135:29
+action#android.intent.action.MAIN
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:132:17-69
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:132:25-66
+category#android.accessibilityservice.SERVICE_SETTINGS
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:134:17-90
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:134:27-87
+activity#com.google.android.accessibility.talkback.permission.PermissionRequestActivity
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:139:9-146:20
+	android:excludeFromRecents
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:142:13-46
+	android:noHistory
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:144:13-38
+	android:exported
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:143:13-37
+	android:theme
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:145:13-54
+	android:directBootAware
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:141:13-43
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:140:13-106
+activity#com.google.android.accessibility.talkback.training.TrainingActivity
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:150:9-160:20
+	android:process
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:156:13-40
+	android:launchMode
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:155:13-43
+	android:windowSoftInputMode
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:158:13-55
+	android:exported
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:154:13-36
+	tools:ignore
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:159:13-44
+	android:configChanges
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:152:13-74
+	android:theme
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:157:13-57
+	android:directBootAware
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:153:13-43
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:151:13-95
+activity#com.google.android.accessibility.talkback.labeling.LabelImportActivity
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:161:9-167:20
+	android:excludeFromRecents
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:163:13-46
+	android:launchMode
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:165:13-48
+	android:exported
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:164:13-36
+	android:theme
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:166:13-47
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:162:13-98
+activity#com.google.android.accessibility.talkback.labeling.LabelManagerSummaryActivity
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:170:9-184:20
+	android:label
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:173:13-64
+	android:launchMode
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:174:13-43
+	android:exported
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:172:13-37
+	android:theme
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:176:13-52
+	android:taskAffinity
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:175:13-94
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:171:13-106
+intent-filter#action:name:.labeling.TalkBackSelectorPreferencesActivity+category:name:android.intent.category.DEFAULT
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:179:13-183:29
+action#com.google.android.accessibility.talkback.labeling.TalkBackSelectorPreferencesActivity
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:180:17-88
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:180:25-85
+activity#com.google.android.accessibility.talkback.labeling.LabelManagerPackageActivity
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:187:9-193:55
+	android:label
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:190:13-49
+	android:launchMode
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:191:13-43
+	android:exported
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:189:13-37
+	android:theme
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:193:13-52
+	android:taskAffinity
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:192:13-94
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:188:13-106
+activity#com.google.android.accessibility.talkback.preference.GestureChangeNotificationActivity
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:196:9-205:20
+	android:exported
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:199:13-36
+	tools:ignore
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:201:13-44
+	android:theme
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:200:13-47
+	android:directBootAware
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:198:13-43
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:197:13-114
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:202:13-204:29
+activity#com.google.android.accessibility.talkback.NotificationActivity
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:208:9-217:20
+	android:exported
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:211:13-36
+	tools:ignore
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:213:13-44
+	android:theme
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:212:13-47
+	android:directBootAware
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:210:13-43
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:209:13-90
+provider#com.google.android.accessibility.talkback.labeling.LabelProvider
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:220:9-224:39
+	android:authorities
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:222:13-75
+	android:exported
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:224:13-36
+	android:directBootAware
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:223:13-43
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:221:13-92
+provider#androidx.core.content.FileProvider
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:225:9-233:20
+	android:grantUriPermissions
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:229:13-47
+	android:authorities
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:227:13-74
+	android:exported
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:228:13-37
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:226:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:230:13-232:54
+	android:resource
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:232:17-51
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:231:17-67
+meta-data#support_lift_to_type
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:235:9-237:58
+	android:value
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:237:13-55
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:236:13-48
+meta-data#com.google.mlkit.vision.DEPENDENCIES
+ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:238:9-240:35
+	android:value
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:240:13-32
+	android:name
+		ADDED from [:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:239:13-64
+service#com.google.android.accessibility.brailleime.BrailleIme
+ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:14:9-28:19
+	android:enabled
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:17:13-36
+	android:label
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:19:13-61
+	android:exported
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:18:13-36
+	android:permission
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:20:13-70
+	android:directBootAware
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:16:13-43
+	android:name
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:15:13-82
+intent-filter#action:name:android.view.InputMethod
+ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:21:13-23:29
+action#android.view.InputMethod
+ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:22:17-67
+	android:name
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:22:25-64
+meta-data#android.view.im
+ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:25:13-27:55
+	android:resource
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:27:17-52
+	android:name
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:26:17-47
+activity#com.google.android.accessibility.brailleime.settings.BrailleImePreferencesActivity
+ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:30:9-44:20
+	android:label
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:34:13-53
+	android:launchMode
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:35:13-43
+	android:exported
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:33:13-36
+	tools:ignore
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:38:13-44
+	android:configChanges
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:32:13-59
+	android:theme
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:37:13-49
+	android:taskAffinity
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:36:13-94
+	android:name
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:31:13-110
+intent-filter#action:name:.BrailleImePreferencesActivity+category:name:android.intent.category.DEFAULT
+ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:39:13-43:29
+action#com.google.android.accessibility.brailleime.BrailleImePreferencesActivity
+ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:40:17-73
+	android:name
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:40:25-70
+receiver#com.google.android.accessibility.brailleime.MyPackageReplacedReceiver
+ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:46:9-53:20
+	android:enabled
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:48:13-35
+	android:exported
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:49:13-36
+	android:name
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:47:13-97
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:50:13-52:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:51:17-84
+	android:name
+		ADDED from [:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:51:25-81
+activity#com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:18:9-24:45
+	android:process
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:23:13-64
+	android:enabled
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:20:13-36
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:24:13-42
+	android:launchMode
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:22:13-48
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:19:13-100
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:25:9-29:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:28:13-42
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:27:13-37
+	android:theme
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:29:13-62
+	android:name
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:26:13-93
+service#com.google.android.play.core.assetpacks.AssetPackExtractionService
+ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:32:9-39:19
+	android:enabled
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:34:13-36
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:33:13-94
+meta-data#com.google.android.play.core.assetpacks.versionCode
+ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:36:13-38:41
+	android:value
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:38:17-38
+	android:name
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:37:17-83
+service#com.google.android.play.core.assetpacks.ExtractionForegroundService
+ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:40:9-43:40
+	android:enabled
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:42:13-36
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:41:13-95
+uses-library#com.google.android.wearable
+ADDED from [com.google.android.support:wearable:2.8.1] C:\Users\DELL\.gradle\caches\transforms-3\c2e2f801adee039422de84039dfb2917\transformed\jetified-wearable-2.8.1\AndroidManifest.xml:10:9-12:40
+MERGED from [androidx.wear:wear:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\ed4dff1867ab8a9966d8728bbeea9473\transformed\wear-1.3.0\AndroidManifest.xml:23:9-25:40
+MERGED from [androidx.wear:wear:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\ed4dff1867ab8a9966d8728bbeea9473\transformed\wear-1.3.0\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [com.google.android.support:wearable:2.8.1] C:\Users\DELL\.gradle\caches\transforms-3\c2e2f801adee039422de84039dfb2917\transformed\jetified-wearable-2.8.1\AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.google.android.support:wearable:2.8.1] C:\Users\DELL\.gradle\caches\transforms-3\c2e2f801adee039422de84039dfb2917\transformed\jetified-wearable-2.8.1\AndroidManifest.xml:11:13-55
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\DELL\.gradle\caches\transforms-3\faafac25bb0a94cc78a7c6f5e28029e1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\DELL\.gradle\caches\transforms-3\faafac25bb0a94cc78a7c6f5e28029e1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\DELL\.gradle\caches\transforms-3\faafac25bb0a94cc78a7c6f5e28029e1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\DELL\.gradle\caches\transforms-3\faafac25bb0a94cc78a7c6f5e28029e1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\DELL\.gradle\caches\transforms-3\faafac25bb0a94cc78a7c6f5e28029e1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61e92b5bb9e667873063812bdb162165\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61e92b5bb9e667873063812bdb162165\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61e92b5bb9e667873063812bdb162165\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61e92b5bb9e667873063812bdb162165\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\9cb9819555e6bfd599641c7d60c2ba34\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\9cb9819555e6bfd599641c7d60c2ba34\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\9cb9819555e6bfd599641c7d60c2ba34\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\f18df579479bf28e3cfb1784a1bad80e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\f18df579479bf28e3cfb1784a1bad80e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\29dc5cdc966f5d496270e8ba6284f57c\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\29dc5cdc966f5d496270e8ba6284f57c\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\6c3246db4921af0462dc130b7cfd06cc\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\6c3246db4921af0462dc130b7cfd06cc\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\6c3246db4921af0462dc130b7cfd06cc\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#group11.bluebird.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\6c3246db4921af0462dc130b7cfd06cc\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\6c3246db4921af0462dc130b7cfd06cc\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\6c3246db4921af0462dc130b7cfd06cc\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\6c3246db4921af0462dc130b7cfd06cc\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\6c3246db4921af0462dc130b7cfd06cc\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#group11.bluebird.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\6c3246db4921af0462dc130b7cfd06cc\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\6c3246db4921af0462dc130b7cfd06cc\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\f18df579479bf28e3cfb1784a1bad80e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\f18df579479bf28e3cfb1784a1bad80e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\f18df579479bf28e3cfb1784a1bad80e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132

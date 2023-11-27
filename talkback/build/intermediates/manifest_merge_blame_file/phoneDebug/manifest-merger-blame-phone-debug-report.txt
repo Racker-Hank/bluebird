@@ -1,0 +1,421 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.google.android.accessibility.talkback" >
+5
+6    <uses-sdk android:minSdkVersion="26" />
+6-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml
+7
+8    <!--
+9    Strings with the format ${foo}, such as ${applicationId}, are called
+10    placeholders, and they get replaced by the build system with the appropriate
+11    value when a build executes.
+12    -->
+13
+14
+15    <!--
+16    The <queries> element allows us to ask the package manager about
+17    the installation status of external components we are interested in. This
+18    policy change was introduced in Android 11.
+19    -->
+20    <queries>
+20-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:13:5-21:15
+21        <intent>
+21-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:14:9-16:18
+22            <action android:name="android.intent.action.TTS_SERVICE" />
+22-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:15:13-72
+22-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:15:21-69
+23        </intent>
+24        <intent>
+24-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:17:9-20:18
+25            <action android:name="android.speech.RecognitionService" />
+25-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:18:13-19:68
+25-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:19:17-65
+26        </intent>
+27    </queries>
+28
+29    <!-- Used by voice commands. -->
+30    <uses-feature
+30-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:24:5-89
+31        android:name="android.hardware.microphone"
+31-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:24:19-61
+32        android:required="false" />
+32-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:24:62-86
+33    <uses-feature
+33-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:25:5-87
+34        android:name="android.hardware.location"
+34-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:25:19-59
+35        android:required="false" />
+35-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:25:60-84
+36
+37    <!-- Required for fingerprint gesture. -->
+38    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+38-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:28:5-74
+38-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:28:22-71
+39
+40    <!-- Required to monitor phone busy state. -->
+41    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+41-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:31:5-75
+41-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:31:22-72
+42
+43    <!-- Required for haptic feedback. -->
+44    <uses-permission android:name="android.permission.VIBRATE" />
+44-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:34:5-66
+44-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:34:22-63
+45
+46    <!-- Required for keeping the screen awake during continuous reading and key filtering. -->
+47    <uses-permission android:name="android.permission.WAKE_LOCK" />
+47-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:37:5-68
+47-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:37:22-65
+48
+49    <!-- Required for managing audio levels on GB. -->
+50    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+50-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:40:5-80
+50-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:40:22-77
+51
+52    <!-- Required for speech recognition and hearing user's audio -->
+53    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+53-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:43:5-71
+53-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:43:22-68
+54
+55    <!-- Required for App Enumeration -->
+56    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+56-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:46:5-76
+56-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:46:22-74
+57
+58    <!-- Required for sending data to Google Analytics. -->
+59    <uses-permission android:name="android.permission.INTERNET" />
+59-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:49:5-67
+59-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:49:22-64
+60    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+60-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:50:5-79
+60-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:50:22-76
+61    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+61-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:52:5-81
+61-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:52:22-78
+62
+63    <!-- Required for calling Service.startForeground after API 28. -->
+64    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+64-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:55:5-77
+64-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:55:22-74
+65
+66    <!-- Required for Primes. -->
+67    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+67-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:58:5-75
+67-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:58:22-72
+68
+69    <!-- Used to control Primes collection using Gservices flags -->
+70    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+70-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:61:5-98
+70-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:61:22-95
+71
+72    <!-- Hardware compatibility. -->
+73    <uses-feature
+73-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:64:5-66:36
+74        android:name="android.hardware.touchscreen"
+74-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:65:9-52
+75        android:required="false" />
+75-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:66:9-33
+76    <uses-feature
+76-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:67:5-69:36
+77        android:name="android.hardware.sensor.accelerometer"
+77-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:68:9-61
+78        android:required="false" />
+78-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:69:9-33
+79
+80    <application android:supportsRtl="true" >
+80-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:71:5-233:19
+80-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:72:9-35
+81        <receiver
+81-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:74:9-82:20
+82            android:name="com.google.android.accessibility.talkback.BootReceiver"
+82-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:74:19-88
+83            android:directBootAware="true"
+83-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:75:13-43
+84            android:exported="true" >
+84-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:76:13-36
+85            <intent-filter>
+85-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:77:13-81:29
+86                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+86-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:78:17-85
+86-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:78:25-83
+87                <action android:name="android.intent.action.BOOT_COMPLETED" />
+87-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:79:17-78
+87-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:79:25-76
+88
+89                <category android:name="android.intent.category.DEFAULT" />
+89-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:80:17-76
+89-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:80:27-73
+90            </intent-filter>
+91        </receiver>
+92
+93        <!-- TalkBack -->
+94        <service
+94-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:85:9-104:19
+95            android:name="com.google.android.marvin.talkback.TalkBackService"
+95-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:87:13-78
+96            android:directBootAware="true"
+96-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:92:13-43
+97            android:exported="true"
+97-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:88:13-36
+98            android:icon="@drawable/icon"
+98-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:86:13-42
+99            android:label="@string/talkback_title"
+99-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:89:13-51
+100            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+100-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:90:13-79
+101            android:settingsActivity="com.android.talkback.TalkBackPreferencesActivity" >
+101-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:91:13-88
+102            <intent-filter>
+102-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:93:13-99:29
+103                <action android:name="android.accessibilityservice.AccessibilityService" />
+103-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:94:17-92
+103-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:94:25-89
+104
+105                <category android:name="android.accessibilityservice.category.FEEDBACK_AUDIBLE" />
+105-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:96:17-99
+105-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:96:27-96
+106                <category android:name="android.accessibilityservice.category.FEEDBACK_HAPTIC" />
+106-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:97:17-98
+106-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:97:27-95
+107                <category android:name="android.accessibilityservice.category.FEEDBACK_SPOKEN" />
+107-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:98:17-98
+107-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:98:27-95
+108            </intent-filter>
+109
+110            <meta-data
+110-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:101:13-103:64
+111                android:name="android.accessibilityservice"
+111-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:102:17-60
+112                android:resource="@xml/accessibilityservice" />
+112-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:103:17-61
+113        </service>
+114        <service
+114-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:106:9-111:50
+115            android:name="com.google.android.accessibility.talkback.ipc.IpcService"
+115-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:108:13-84
+116            android:enabled="true"
+116-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:109:13-35
+117            android:exported="false"
+117-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:110:13-37
+118            android:icon="@drawable/icon"
+118-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:107:13-42
+119            android:label="TalkBackIpcService" />
+119-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:111:13-47
+120
+121        <!-- TalkBack Preferences -->
+122        <activity
+122-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:114:9-128:20
+123            android:name="com.android.talkback.TalkBackPreferencesActivity"
+123-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:115:13-76
+124            android:configChanges="orientation|screenSize"
+124-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:116:13-59
+125            android:exported="true"
+125-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:117:13-36
+126            android:label="@string/talkback_preferences_title"
+126-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:118:13-63
+127            android:launchMode="singleTop"
+127-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:119:13-43
+128            android:taskAffinity="com.google.android.accessibility.talkback.SettingsAffinity"
+128-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:120:13-94
+129            android:theme="@style/TalkBackSettings"
+129-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:121:13-52
+130            tools:ignore="ExportedActivity" >
+130-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:122:13-44
+131            <intent-filter>
+131-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:123:13-127:29
+132                <action android:name="android.intent.action.MAIN" />
+132-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:124:17-69
+132-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:124:25-66
+133
+134                <category android:name="android.accessibilityservice.SERVICE_SETTINGS" />
+134-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:126:17-90
+134-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:126:27-87
+135            </intent-filter>
+136        </activity>
+137
+138        <!-- TalkBack permission request activity proxy -->
+139        <activity
+139-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:131:9-138:20
+140            android:name="com.google.android.accessibility.talkback.permission.PermissionRequestActivity"
+140-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:132:13-106
+141            android:directBootAware="true"
+141-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:135:13-43
+142            android:excludeFromRecents="true"
+142-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:133:13-46
+143            android:exported="false"
+143-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:136:13-37
+144            android:noHistory="false"
+144-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:137:13-38
+145            android:theme="@style/BlankActivityTheme" >
+145-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:134:13-54
+146        </activity>
+147
+148        <!-- TalkBack training -->
+149        <!-- To prevent slowdown of talkback event-handlers, arrange to run on a separate process. -->
+150        <activity
+150-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:142:9-152:20
+151            android:name="com.google.android.accessibility.talkback.training.TrainingActivity"
+151-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:143:13-95
+152            android:configChanges="keyboardHidden|orientation|screenSize"
+152-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:145:13-74
+153            android:directBootAware="true"
+153-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:151:13-43
+154            android:exported="true"
+154-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:146:13-36
+155            android:launchMode="singleTop"
+155-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:147:13-43
+156            android:process=":Tutorial"
+156-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:144:13-40
+157            android:theme="@style/TrainingActivityTheme"
+157-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:148:13-57
+158            android:windowSoftInputMode="adjustResize"
+158-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:149:13-55
+159            tools:ignore="ExportedActivity" >
+159-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:150:13-44
+160        </activity>
+161        <activity
+161-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:154:9-159:20
+162            android:name="com.google.android.accessibility.talkback.labeling.LabelImportActivity"
+162-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:154:19-104
+163            android:excludeFromRecents="true"
+163-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:155:13-46
+164            android:exported="true"
+164-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:158:13-36
+165            android:launchMode="singleInstance"
+165-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:157:13-48
+166            android:theme="@style/DialogStyle" >
+166-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:156:13-47
+167        </activity>
+168
+169        <!-- Custom Label Manager - Summary Activity -->
+170        <activity
+170-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:162:9-174:20
+171            android:name="com.google.android.accessibility.talkback.labeling.LabelManagerSummaryActivity"
+171-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:163:13-106
+172            android:exported="false"
+172-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:164:13-37
+173            android:label="@string/label_manager_summary_title"
+173-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:165:13-64
+174            android:launchMode="singleTop"
+174-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:166:13-43
+175            android:taskAffinity="com.google.android.accessibility.talkback.SettingsAffinity"
+175-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:168:13-94
+176            android:theme="@style/TalkBackSettings" >
+176-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:167:13-52
+177
+178            <!-- This preference activity can receive an implicit intent action -->
+179            <intent-filter>
+179-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:170:13-173:29
+180                <action android:name=".labeling.TalkBackSelectorPreferencesActivity" />
+180-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:171:17-88
+180-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:171:25-85
+181
+182                <category android:name="android.intent.category.DEFAULT" />
+182-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:80:17-76
+182-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:80:27-73
+183            </intent-filter>
+184        </activity>
+185
+186        <!-- Custom Label Manager - Package Activity -->
+187        <activity
+187-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:177:9-183:97
+188            android:name="com.google.android.accessibility.talkback.labeling.LabelManagerPackageActivity"
+188-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:178:13-106
+189            android:exported="false"
+189-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:179:13-37
+190            android:label="@string/manage_label"
+190-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:180:13-49
+191            android:launchMode="singleTop"
+191-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:181:13-43
+192            android:taskAffinity="com.google.android.accessibility.talkback.SettingsAffinity"
+192-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:183:13-94
+193            android:theme="@style/TalkBackSettings" />
+193-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:182:13-52
+194
+195        <!-- Gesture Change Notification Activity -->
+196        <activity
+196-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:186:9-195:20
+197            android:name="com.google.android.accessibility.talkback.preference.GestureChangeNotificationActivity"
+197-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:187:13-114
+198            android:directBootAware="true"
+198-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:190:13-43
+199            android:exported="true"
+199-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:188:13-36
+200            android:theme="@style/DialogStyle"
+200-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:189:13-47
+201            tools:ignore="ExportedActivity" >
+201-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:191:13-44
+202            <intent-filter>
+202-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:192:13-194:29
+203                <action android:name="android.intent.action.MAIN" />
+203-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:124:17-69
+203-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:124:25-66
+204            </intent-filter>
+205        </activity>
+206
+207        <!-- Notification Activity used periodically to inform the user of changes -->
+208        <activity
+208-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:198:9-207:20
+209            android:name="com.google.android.accessibility.talkback.NotificationActivity"
+209-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:199:13-90
+210            android:directBootAware="true"
+210-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:202:13-43
+211            android:exported="true"
+211-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:200:13-36
+212            android:theme="@style/DialogStyle"
+212-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:201:13-47
+213            tools:ignore="ExportedActivity" >
+213-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:203:13-44
+214            <intent-filter>
+214-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:192:13-194:29
+215                <action android:name="android.intent.action.MAIN" />
+215-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:124:17-69
+215-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:124:25-66
+216            </intent-filter>
+217        </activity>
+218
+219        <!-- Content provider for custom label data -->
+220        <provider
+220-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:210:9-214:46
+221            android:name="com.google.android.accessibility.talkback.labeling.LabelProvider"
+221-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:211:13-92
+222            android:authorities="${applicationId}.providers.LabelProvider"
+222-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:212:13-75
+223            android:directBootAware="true"
+223-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:214:13-43
+224            android:exported="true" />
+224-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:213:13-36
+225        <provider
+225-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:216:9-224:20
+226            android:name="androidx.core.content.FileProvider"
+226-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:217:13-62
+227            android:authorities="${applicationId}.providers.FileProvider"
+227-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:218:13-74
+228            android:exported="false"
+228-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:219:13-37
+229            android:grantUriPermissions="true" >
+229-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:220:13-47
+230            <meta-data
+230-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:221:13-223:54
+231                android:name="android.support.FILE_PROVIDER_PATHS"
+231-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:222:17-67
+232                android:resource="@xml/file_paths" />
+232-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:223:17-51
+233        </provider>
+234
+235        <meta-data
+235-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:225:9-227:58
+236            android:name="support_lift_to_type"
+236-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:226:13-48
+237            android:value="@bool/support_lift_to_type" />
+237-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:227:13-55
+238        <meta-data
+238-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:229:9-231:35
+239            android:name="com.google.mlkit.vision.DEPENDENCIES"
+239-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:230:13-64
+240            android:value="ocr" />
+240-->F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\src\main\AndroidManifest.xml:231:13-32
+241    </application>
+242
+243</manifest>

@@ -1,0 +1,13 @@
+[x86] Compile        : louis <= compileTranslationTable.c
+[x86] Compile        : louis <= logging.c
+[x86] Compile        : louis <= lou_backTranslateString.c
+[x86] Compile        : louis <= lou_translateString.c
+[x86] Compile        : louis <= commonTranslationFunctions.c
+[x86] Compile        : louis <= maketable.c
+[x86] Compile        : louis <= metadata.c
+[x86] Compile        : louis <= pattern.c
+[x86] Compile        : louis <= utils.c
+[x86] SharedLibrary  : liblouis.so
+[x86] Compile++      : louiswrap <= louis_translation.cc
+[x86] Prebuilt       : libc++_shared.so <= <NDK>/sources/cxx-stl/llvm-libc++/libs/x86/
+[x86] SharedLibrary  : liblouiswrap.so

@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\build\\intermediates\\incremental\\mergePhoneDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\91b5f8ff4cef1ce819fc49a09d40ff5f\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,381,557,796",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,376,552,791,884"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,13,17,21",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "477,552,639,803,979,1218",
+                        "endLines": "7,8,12,16,20,21",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "547,634,798,974,1213,1306"
+                    }
+                },
+                {
+                    "source": "F:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\talkback\\build\\intermediates\\packaged_res\\phone\\debug\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,113,204,295,386",
+                        "endColumns": "57,90,90,90,90",
+                        "endOffsets": "108,199,290,381,472"
+                    }
+                }
+            ]
+        }
+    ]
+}

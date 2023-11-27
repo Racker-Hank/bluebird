@@ -1,0 +1,2 @@
+D com/google/android/accessibility/utils/gestures/GestureMatcher$GestureId
+D com/google/android/accessibility/utils/gestures/GestureMatcher$State

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\2Study\\4Nam4\\1Sem1\\HMI\\bluebird\\build\\intermediates\\incremental\\mergePhoneDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\91b5f8ff4cef1ce819fc49a09d40ff5f\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

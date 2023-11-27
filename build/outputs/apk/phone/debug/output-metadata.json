@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "group11.bluebird",
+  "variantName": "phoneDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 0,
+      "versionName": "TfPu_release_13_0-2023_11_15_1625",
+      "outputFile": "bluebird-phone-debug.apk"
+    }
+  ]
+}

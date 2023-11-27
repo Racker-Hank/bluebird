@@ -1594,13 +1594,15 @@ public class TalkBackService extends AccessibilityService
 
         @Override
         public boolean shouldAnnounceCharacter() {
+//          @KeyboardEchoType
+//          int echoType =
+//              brailleDisplay
+//                      .getBrailleDisplayForBrailleIme()
+//                      .isBrailleDisplayConnectedAndNotSuspended()
+//                  ? readPhysicalKeyboardEcho()
+//                  : readOnScreenKeyboardEcho();
           @KeyboardEchoType
-          int echoType =
-              brailleDisplay
-                      .getBrailleDisplayForBrailleIme()
-                      .isBrailleDisplayConnectedAndNotSuspended()
-                  ? readPhysicalKeyboardEcho()
-                  : readOnScreenKeyboardEcho();
+          int echoType = readOnScreenKeyboardEcho();
           return echoType == PREF_ECHO_CHARACTERS || echoType == PREF_ECHO_CHARACTERS_AND_WORDS;
         }
 

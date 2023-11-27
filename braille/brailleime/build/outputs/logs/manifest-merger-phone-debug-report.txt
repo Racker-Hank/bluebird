@@ -1,0 +1,100 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\main\AndroidManifest.xml:2:1-4:61
+INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\main\AndroidManifest.xml:2:1-4:61
+MERGED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\main\AndroidManifest.xml:2:1-4:61
+INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:2:1-54:12
+	package
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\main\AndroidManifest.xml:4:5-58
+		INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\main\AndroidManifest.xml
+		INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml
+	xmlns:tools
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\main\AndroidManifest.xml
+MERGED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\main\AndroidManifest.xml
+MERGED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\main\AndroidManifest.xml
+INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:6:3-8:39
+	android:targetSdkVersion
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:8:7-36
+	android:minSdkVersion
+		INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\main\AndroidManifest.xml
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:7:7-33
+		INJECTED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:11:3-64
+	android:name
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:11:20-61
+application
+ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:13:3-52:17
+service#com.google.android.accessibility.brailleime.BrailleIme
+ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:14:5-27:15
+	android:enabled
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:17:9-32
+	android:label
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:16:9-57
+	android:exported
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:18:9-32
+	android:permission
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:20:9-66
+	android:directBootAware
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:19:9-39
+	android:name
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:15:9-78
+intent-filter#action:name:android.view.InputMethod
+ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:21:7-23:23
+action#android.view.InputMethod
+ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:22:9-59
+	android:name
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:22:17-56
+meta-data#android.view.im
+ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:24:7-26:49
+	android:resource
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:26:11-46
+	android:name
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:25:11-41
+activity#com.google.android.accessibility.brailleime.settings.BrailleImePreferencesActivity
+ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:28:5-42:16
+	android:label
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:32:9-49
+	android:launchMode
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:33:9-39
+	android:exported
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:31:9-32
+	tools:ignore
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:36:9-40
+	android:configChanges
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:30:9-55
+	android:theme
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:35:9-45
+	android:taskAffinity
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:34:9-90
+	android:name
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:29:9-106
+intent-filter#action:name:.BrailleImePreferencesActivity+category:name:android.intent.category.DEFAULT
+ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:38:7-41:23
+action#com.google.android.accessibility.brailleime.BrailleImePreferencesActivity
+ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:39:9-65
+	android:name
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:39:17-62
+category#android.intent.category.DEFAULT
+ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:40:9-68
+	android:name
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:40:19-65
+receiver#com.google.android.accessibility.brailleime.MyPackageReplacedReceiver
+ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:44:5-50:16
+	android:enabled
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:45:9-31
+	android:exported
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:46:9-32
+	android:name
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:44:15-99
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:47:7-49:23
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:48:9-76
+	android:name
+		ADDED from F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\src\phone\AndroidManifest.xml:48:17-73
