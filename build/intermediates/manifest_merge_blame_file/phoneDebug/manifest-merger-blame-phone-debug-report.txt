@@ -1,7 +1,7 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="group11.bluebird"
-4    android:versionName="TfPu_release_13_0-2023_11_15_1625" >
+4    android:versionName="TfPu_release_13_0-2023_12_01_1728" >
 5    <!--
 6 Strings with the format ${foo}, such as ${applicationId}, are called
 7  placeholders, and they get replaced by the build system with the appropriate
@@ -119,534 +119,533 @@
 65-->[androidx.core:core:1.9.0] C:\Users\DELL\.gradle\caches\transforms-3\6c3246db4921af0462dc130b7cfd06cc\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 66        android:debuggable="true"
 67        android:extractNativeLibs="false"
-68        android:supportsRtl="true"
+68        android:supportsRtl="true" >
 68-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:80:18-44
-69        android:testOnly="true" >
-70        <receiver
-70-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:81:9-91:20
-71            android:name="com.google.android.accessibility.talkback.BootReceiver"
-71-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:82:13-82
-72            android:directBootAware="true"
-72-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:83:13-43
-73            android:exported="true" >
-73-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:84:13-36
-74            <intent-filter>
-74-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:85:13-90:29
-75                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
-75-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:86:17-86
-75-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:86:25-83
-76                <action android:name="android.intent.action.BOOT_COMPLETED" />
-76-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:87:17-79
-76-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:87:25-76
-77
-78                <category android:name="android.intent.category.DEFAULT" />
-78-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:89:17-76
-78-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:89:27-73
-79            </intent-filter>
-80        </receiver>
-81
-82        <!-- TalkBack -->
-83        <service
-83-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:94:9-113:19
-84            android:name="com.google.android.marvin.talkback.TalkBackService"
-84-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:95:13-78
-85            android:directBootAware="true"
-85-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:96:13-43
-86            android:exported="true"
-86-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:97:13-36
-87            android:icon="@drawable/icon"
-87-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:98:13-42
-88            android:label="@string/talkback_title"
-88-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:99:13-51
-89            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
-89-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:100:13-79
-90            android:settingsActivity="com.android.talkback.TalkBackPreferencesActivity" >
-90-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:101:13-88
-91            <intent-filter>
-91-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:102:13-108:29
-92                <action android:name="android.accessibilityservice.AccessibilityService" />
-92-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:103:17-92
-92-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:103:25-89
-93
-94                <category android:name="android.accessibilityservice.category.FEEDBACK_AUDIBLE" />
-94-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:105:17-99
-94-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:105:27-96
-95                <category android:name="android.accessibilityservice.category.FEEDBACK_HAPTIC" />
-95-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:106:17-98
-95-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:106:27-95
-96                <category android:name="android.accessibilityservice.category.FEEDBACK_SPOKEN" />
-96-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:107:17-98
-96-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:107:27-95
-97            </intent-filter>
-98
-99            <meta-data
-99-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:110:13-112:64
-100                android:name="android.accessibilityservice"
-100-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:111:17-60
-101                android:resource="@xml/accessibilityservice" />
-101-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:112:17-61
-102        </service>
-103        <service
-103-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:114:9-119:50
-104            android:name="com.google.android.accessibility.talkback.ipc.IpcService"
-104-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:115:13-84
-105            android:enabled="true"
-105-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:116:13-35
-106            android:exported="false"
-106-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:117:13-37
-107            android:icon="@drawable/icon"
-107-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:118:13-42
-108            android:label="TalkBackIpcService" />
-108-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:119:13-47
-109
-110        <!-- TalkBack Preferences -->
-111        <activity
-111-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:122:9-136:20
-112            android:name="com.android.talkback.TalkBackPreferencesActivity"
-112-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:123:13-76
-113            android:configChanges="orientation|screenSize"
-113-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:124:13-59
-114            android:exported="true"
-114-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:125:13-36
-115            android:label="@string/talkback_preferences_title"
-115-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:126:13-63
-116            android:launchMode="singleTop"
-116-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:127:13-43
-117            android:taskAffinity="com.google.android.accessibility.talkback.SettingsAffinity"
-117-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:128:13-94
-118            android:theme="@style/TalkBackSettings" >
-118-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:129:13-52
-119            <intent-filter>
-119-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:131:13-135:29
-120                <action android:name="android.intent.action.MAIN" />
-120-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:132:17-69
-120-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:132:25-66
-121
-122                <category android:name="android.accessibilityservice.SERVICE_SETTINGS" />
-122-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:134:17-90
-122-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:134:27-87
-123            </intent-filter>
-124        </activity>
-125
-126        <!-- TalkBack permission request activity proxy -->
-127        <activity
-127-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:139:9-146:20
-128            android:name="com.google.android.accessibility.talkback.permission.PermissionRequestActivity"
-128-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:140:13-106
-129            android:directBootAware="true"
-129-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:141:13-43
-130            android:excludeFromRecents="true"
-130-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:142:13-46
-131            android:exported="false"
-131-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:143:13-37
-132            android:noHistory="false"
-132-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:144:13-38
-133            android:theme="@style/BlankActivityTheme" >
-133-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:145:13-54
-134        </activity>
-135
-136        <!-- TalkBack training -->
-137        <!-- To prevent slowdown of talkback event-handlers, arrange to run on a separate process. -->
-138        <activity
-138-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:150:9-160:20
-139            android:name="com.google.android.accessibility.talkback.training.TrainingActivity"
-139-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:151:13-95
-140            android:configChanges="keyboardHidden|orientation|screenSize"
-140-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:152:13-74
-141            android:directBootAware="true"
-141-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:153:13-43
-142            android:exported="true"
-142-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:154:13-36
-143            android:launchMode="singleTop"
-143-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:155:13-43
-144            android:process=":Tutorial"
-144-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:156:13-40
-145            android:theme="@style/TrainingActivityTheme"
-145-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:157:13-57
-146            android:windowSoftInputMode="adjustResize" >
-146-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:158:13-55
-147        </activity>
-148        <activity
-148-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:161:9-167:20
-149            android:name="com.google.android.accessibility.talkback.labeling.LabelImportActivity"
-149-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:162:13-98
-150            android:excludeFromRecents="true"
-150-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:163:13-46
-151            android:exported="true"
-151-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:164:13-36
-152            android:launchMode="singleInstance"
-152-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:165:13-48
-153            android:theme="@style/DialogStyle" >
-153-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:166:13-47
-154        </activity>
-155
-156        <!-- Custom Label Manager - Summary Activity -->
-157        <activity
-157-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:170:9-184:20
-158            android:name="com.google.android.accessibility.talkback.labeling.LabelManagerSummaryActivity"
-158-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:171:13-106
-159            android:exported="false"
-159-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:172:13-37
-160            android:label="@string/label_manager_summary_title"
-160-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:173:13-64
-161            android:launchMode="singleTop"
-161-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:174:13-43
-162            android:taskAffinity="com.google.android.accessibility.talkback.SettingsAffinity"
-162-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:175:13-94
-163            android:theme="@style/TalkBackSettings" >
-163-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:176:13-52
-164
-165            <!-- This preference activity can receive an implicit intent action -->
-166            <intent-filter>
-166-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:179:13-183:29
-167                <action android:name=".labeling.TalkBackSelectorPreferencesActivity" />
-168
-169                <category android:name="android.intent.category.DEFAULT" />
-169-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:89:17-76
-169-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:89:27-73
-170            </intent-filter>
-171        </activity>
-172
-173        <!-- Custom Label Manager - Package Activity -->
-174        <activity
-174-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:187:9-193:55
-175            android:name="com.google.android.accessibility.talkback.labeling.LabelManagerPackageActivity"
-175-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:188:13-106
-176            android:exported="false"
-176-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:189:13-37
-177            android:label="@string/manage_label"
-177-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:190:13-49
-178            android:launchMode="singleTop"
-178-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:191:13-43
-179            android:taskAffinity="com.google.android.accessibility.talkback.SettingsAffinity"
-179-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:192:13-94
-180            android:theme="@style/TalkBackSettings" />
-180-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:193:13-52
-181
-182        <!-- Gesture Change Notification Activity -->
-183        <activity
-183-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:196:9-205:20
-184            android:name="com.google.android.accessibility.talkback.preference.GestureChangeNotificationActivity"
-184-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:197:13-114
-185            android:directBootAware="true"
-185-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:198:13-43
-186            android:exported="true"
-186-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:199:13-36
-187            android:theme="@style/DialogStyle" >
-187-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:200:13-47
-188            <intent-filter>
-188-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:202:13-204:29
-189                <action android:name="android.intent.action.MAIN" />
-189-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:132:17-69
-189-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:132:25-66
-190            </intent-filter>
-191        </activity>
-192
-193        <!-- Notification Activity used periodically to inform the user of changes -->
-194        <activity
-194-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:208:9-217:20
-195            android:name="com.google.android.accessibility.talkback.NotificationActivity"
-195-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:209:13-90
-196            android:directBootAware="true"
-196-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:210:13-43
-197            android:exported="true"
-197-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:211:13-36
-198            android:theme="@style/DialogStyle" >
-198-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:212:13-47
-199            <intent-filter>
-199-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:202:13-204:29
-200                <action android:name="android.intent.action.MAIN" />
-200-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:132:17-69
-200-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:132:25-66
-201            </intent-filter>
-202        </activity>
-203
-204        <!-- Content provider for custom label data -->
-205        <provider
-205-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:220:9-224:39
-206            android:name="com.google.android.accessibility.talkback.labeling.LabelProvider"
-206-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:221:13-92
-207            android:authorities="group11.bluebird.providers.LabelProvider"
-207-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:222:13-75
-208            android:directBootAware="true"
-208-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:223:13-43
-209            android:exported="true" />
-209-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:224:13-36
-210        <provider
-210-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:225:9-233:20
-211            android:name="androidx.core.content.FileProvider"
-211-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:226:13-62
-212            android:authorities="group11.bluebird.providers.FileProvider"
-212-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:227:13-74
-213            android:exported="false"
-213-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:228:13-37
-214            android:grantUriPermissions="true" >
-214-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:229:13-47
-215            <meta-data
-215-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:230:13-232:54
-216                android:name="android.support.FILE_PROVIDER_PATHS"
-216-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:231:17-67
-217                android:resource="@xml/file_paths" />
-217-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:232:17-51
-218        </provider>
-219
-220        <meta-data
-220-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:235:9-237:58
-221            android:name="support_lift_to_type"
-221-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:236:13-48
-222            android:value="@bool/support_lift_to_type" />
-222-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:237:13-55
-223        <meta-data
-223-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:238:9-240:35
-224            android:name="com.google.mlkit.vision.DEPENDENCIES"
-224-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:239:13-64
-225            android:value="ocr" />
-225-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:240:13-32
-226
-227        <service
-227-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:14:9-28:19
-228            android:name="com.google.android.accessibility.brailleime.BrailleIme"
-228-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:15:13-82
-229            android:directBootAware="true"
-229-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:16:13-43
-230            android:enabled="false"
-230-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:17:13-36
-231            android:exported="true"
-231-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:18:13-36
-232            android:label="@string/braille_ime_service_name"
-232-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:19:13-61
-233            android:permission="android.permission.BIND_INPUT_METHOD" >
-233-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:20:13-70
-234            <intent-filter>
-234-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:21:13-23:29
-235                <action android:name="android.view.InputMethod" />
-235-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:22:17-67
-235-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:22:25-64
-236            </intent-filter>
-237
-238            <meta-data
-238-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:25:13-27:55
-239                android:name="android.view.im"
-239-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:26:17-47
-240                android:resource="@xml/braille_ime" />
-240-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:27:17-52
-241        </service>
-242
-243        <activity
-243-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:30:9-44:20
-244            android:name="com.google.android.accessibility.brailleime.settings.BrailleImePreferencesActivity"
-244-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:31:13-110
-245            android:configChanges="orientation|screenSize"
-245-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:32:13-59
-246            android:exported="true"
-246-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:33:13-36
-247            android:label="@string/braille_keyboard"
-247-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:34:13-53
-248            android:launchMode="singleTop"
-248-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:35:13-43
-249            android:taskAffinity="com.google.android.accessibility.talkback.SettingsAffinity"
-249-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:36:13-94
-250            android:theme="@style/SettingsTheme" >
-250-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:37:13-49
-251            <intent-filter>
-251-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:39:13-43:29
-252                <action android:name=".BrailleImePreferencesActivity" />
-253
-254                <category android:name="android.intent.category.DEFAULT" />
-254-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:89:17-76
-254-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:89:27-73
-255            </intent-filter>
-256        </activity>
-257
-258        <receiver
-258-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:46:9-53:20
-259            android:name="com.google.android.accessibility.brailleime.MyPackageReplacedReceiver"
-259-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:47:13-97
-260            android:enabled="true"
-260-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:48:13-35
-261            android:exported="true" >
-261-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:49:13-36
-262            <intent-filter>
-262-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:50:13-52:29
-263                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-263-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:51:17-84
-263-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:51:25-81
-264            </intent-filter>
-265        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
-266        <activity
-266-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:18:9-24:45
-267            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
-267-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:19:13-100
-268            android:enabled="false"
-268-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:20:13-36
-269            android:exported="false"
-269-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:21:13-37
-270            android:launchMode="singleInstance"
-270-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:22:13-48
-271            android:process=":playcore_missing_splits_activity"
-271-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:23:13-64
-272            android:stateNotNeeded="true" />
-272-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:24:13-42
-273        <activity
-273-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:25:9-29:65
-274            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-274-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:26:13-93
-275            android:exported="false"
-275-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:27:13-37
-276            android:stateNotNeeded="true"
-276-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:28:13-42
-277            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
-277-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:29:13-62
-278        <service
-278-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:32:9-39:19
-279            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
-279-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:33:13-94
-280            android:enabled="false"
-280-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:34:13-36
-281            android:exported="true" >
-281-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:35:13-36
-282            <meta-data
-282-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:36:13-38:41
-283                android:name="com.google.android.play.core.assetpacks.versionCode"
-283-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:37:17-83
-284                android:value="11003" />
-284-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:38:17-38
-285        </service>
-286        <service
-286-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:40:9-43:40
-287            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
-287-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:41:13-95
-288            android:enabled="false"
-288-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:42:13-36
-289            android:exported="false" />
-289-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:43:13-37
-290
-291        <uses-library
-291-->[com.google.android.support:wearable:2.8.1] C:\Users\DELL\.gradle\caches\transforms-3\c2e2f801adee039422de84039dfb2917\transformed\jetified-wearable-2.8.1\AndroidManifest.xml:10:9-12:40
-292            android:name="com.google.android.wearable"
-292-->[com.google.android.support:wearable:2.8.1] C:\Users\DELL\.gradle\caches\transforms-3\c2e2f801adee039422de84039dfb2917\transformed\jetified-wearable-2.8.1\AndroidManifest.xml:11:13-55
-293            android:required="false" />
-293-->[com.google.android.support:wearable:2.8.1] C:\Users\DELL\.gradle\caches\transforms-3\c2e2f801adee039422de84039dfb2917\transformed\jetified-wearable-2.8.1\AndroidManifest.xml:12:13-37
-294
-295        <service
-295-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:9:9-15:19
-296            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
-296-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:10:13-91
-297            android:directBootAware="true"
-297-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:17:13-43
-298            android:exported="false" >
-298-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:11:13-37
-299            <meta-data
-299-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:12:13-14:85
-300                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
-300-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:13:17-114
-301                android:value="com.google.firebase.components.ComponentRegistrar" />
-301-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:14:17-82
-302            <meta-data
-302-->[com.google.mlkit:vision-common:17.3.0] C:\Users\DELL\.gradle\caches\transforms-3\faafac25bb0a94cc78a7c6f5e28029e1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
-303                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
-303-->[com.google.mlkit:vision-common:17.3.0] C:\Users\DELL\.gradle\caches\transforms-3\faafac25bb0a94cc78a7c6f5e28029e1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:13:17-124
-304                android:value="com.google.firebase.components.ComponentRegistrar" />
-304-->[com.google.mlkit:vision-common:17.3.0] C:\Users\DELL\.gradle\caches\transforms-3\faafac25bb0a94cc78a7c6f5e28029e1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:14:17-82
-305            <meta-data
-305-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:20:13-22:85
-306                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
-306-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:21:17-120
-307                android:value="com.google.firebase.components.ComponentRegistrar" />
-307-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:22:17-82
-308        </service>
-309
-310        <provider
-310-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:9:9-13:38
-311            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
-311-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:10:13-78
-312            android:authorities="group11.bluebird.mlkitinitprovider"
-312-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:11:13-69
-313            android:exported="false"
-313-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:12:13-37
-314            android:initOrder="99" />
-314-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:13:13-35
-315
-316        <activity
-316-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61e92b5bb9e667873063812bdb162165\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
-317            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-317-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61e92b5bb9e667873063812bdb162165\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
-318            android:exported="false"
-318-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61e92b5bb9e667873063812bdb162165\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
-319            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-319-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61e92b5bb9e667873063812bdb162165\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
-320
-321        <meta-data
-321-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\9cb9819555e6bfd599641c7d60c2ba34\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-322            android:name="com.google.android.gms.version"
-322-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\9cb9819555e6bfd599641c7d60c2ba34\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-323            android:value="@integer/google_play_services_version" />
-323-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\9cb9819555e6bfd599641c7d60c2ba34\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-324
-325        <provider
-325-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-326            android:name="androidx.startup.InitializationProvider"
-326-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-327            android:authorities="group11.bluebird.androidx-startup"
-327-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-328            android:exported="false" >
-328-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-329            <meta-data
-329-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-330                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-330-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-331                android:value="androidx.startup" />
-331-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-332            <meta-data
-332-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\f18df579479bf28e3cfb1784a1bad80e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-333                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-333-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\f18df579479bf28e3cfb1784a1bad80e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-334                android:value="androidx.startup" />
-334-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\f18df579479bf28e3cfb1784a1bad80e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-335        </provider>
-336
-337        <uses-library
-337-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
-338            android:name="androidx.window.extensions"
-338-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
-339            android:required="false" />
-339-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
-340        <uses-library
-340-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
-341            android:name="androidx.window.sidecar"
-341-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
-342            android:required="false" />
-342-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
-343
-344        <service
-344-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
-345            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-345-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
-346            android:exported="false" >
-346-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
-347            <meta-data
-347-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
-348                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-348-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
-349                android:value="cct" />
-349-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
-350        </service>
-351        <service
-351-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
-352            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-352-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
-353            android:exported="false"
-353-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
-354            android:permission="android.permission.BIND_JOB_SERVICE" >
-354-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
-355        </service>
-356
-357        <receiver
-357-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
-358            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-358-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
-359            android:exported="false" />
-359-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
-360    </application>
-361
-362</manifest>
+69        <receiver
+69-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:81:9-91:20
+70            android:name="com.google.android.accessibility.talkback.BootReceiver"
+70-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:82:13-82
+71            android:directBootAware="true"
+71-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:83:13-43
+72            android:exported="true" >
+72-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:84:13-36
+73            <intent-filter>
+73-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:85:13-90:29
+74                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+74-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:86:17-86
+74-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:86:25-83
+75                <action android:name="android.intent.action.BOOT_COMPLETED" />
+75-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:87:17-79
+75-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:87:25-76
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:89:17-76
+77-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:89:27-73
+78            </intent-filter>
+79        </receiver>
+80
+81        <!-- TalkBack -->
+82        <service
+82-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:94:9-113:19
+83            android:name="com.google.android.marvin.talkback.TalkBackService"
+83-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:95:13-78
+84            android:directBootAware="true"
+84-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:96:13-43
+85            android:exported="true"
+85-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:97:13-36
+86            android:icon="@drawable/icon"
+86-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:98:13-42
+87            android:label="@string/talkback_title"
+87-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:99:13-51
+88            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+88-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:100:13-79
+89            android:settingsActivity="com.android.talkback.TalkBackPreferencesActivity" >
+89-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:101:13-88
+90            <intent-filter>
+90-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:102:13-108:29
+91                <action android:name="android.accessibilityservice.AccessibilityService" />
+91-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:103:17-92
+91-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:103:25-89
+92
+93                <category android:name="android.accessibilityservice.category.FEEDBACK_AUDIBLE" />
+93-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:105:17-99
+93-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:105:27-96
+94                <category android:name="android.accessibilityservice.category.FEEDBACK_HAPTIC" />
+94-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:106:17-98
+94-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:106:27-95
+95                <category android:name="android.accessibilityservice.category.FEEDBACK_SPOKEN" />
+95-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:107:17-98
+95-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:107:27-95
+96            </intent-filter>
+97
+98            <meta-data
+98-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:110:13-112:64
+99                android:name="android.accessibilityservice"
+99-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:111:17-60
+100                android:resource="@xml/accessibilityservice" />
+100-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:112:17-61
+101        </service>
+102        <service
+102-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:114:9-119:50
+103            android:name="com.google.android.accessibility.talkback.ipc.IpcService"
+103-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:115:13-84
+104            android:enabled="true"
+104-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:116:13-35
+105            android:exported="false"
+105-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:117:13-37
+106            android:icon="@drawable/icon"
+106-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:118:13-42
+107            android:label="TalkBackIpcService" />
+107-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:119:13-47
+108
+109        <!-- TalkBack Preferences -->
+110        <activity
+110-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:122:9-136:20
+111            android:name="com.android.talkback.TalkBackPreferencesActivity"
+111-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:123:13-76
+112            android:configChanges="orientation|screenSize"
+112-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:124:13-59
+113            android:exported="true"
+113-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:125:13-36
+114            android:label="@string/talkback_preferences_title"
+114-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:126:13-63
+115            android:launchMode="singleTop"
+115-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:127:13-43
+116            android:taskAffinity="com.google.android.accessibility.talkback.SettingsAffinity"
+116-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:128:13-94
+117            android:theme="@style/TalkBackSettings" >
+117-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:129:13-52
+118            <intent-filter>
+118-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:131:13-135:29
+119                <action android:name="android.intent.action.MAIN" />
+119-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:132:17-69
+119-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:132:25-66
+120
+121                <category android:name="android.accessibilityservice.SERVICE_SETTINGS" />
+121-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:134:17-90
+121-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:134:27-87
+122            </intent-filter>
+123        </activity>
+124
+125        <!-- TalkBack permission request activity proxy -->
+126        <activity
+126-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:139:9-146:20
+127            android:name="com.google.android.accessibility.talkback.permission.PermissionRequestActivity"
+127-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:140:13-106
+128            android:directBootAware="true"
+128-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:141:13-43
+129            android:excludeFromRecents="true"
+129-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:142:13-46
+130            android:exported="false"
+130-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:143:13-37
+131            android:noHistory="false"
+131-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:144:13-38
+132            android:theme="@style/BlankActivityTheme" >
+132-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:145:13-54
+133        </activity>
+134
+135        <!-- TalkBack training -->
+136        <!-- To prevent slowdown of talkback event-handlers, arrange to run on a separate process. -->
+137        <activity
+137-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:150:9-160:20
+138            android:name="com.google.android.accessibility.talkback.training.TrainingActivity"
+138-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:151:13-95
+139            android:configChanges="keyboardHidden|orientation|screenSize"
+139-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:152:13-74
+140            android:directBootAware="true"
+140-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:153:13-43
+141            android:exported="true"
+141-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:154:13-36
+142            android:launchMode="singleTop"
+142-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:155:13-43
+143            android:process=":Tutorial"
+143-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:156:13-40
+144            android:theme="@style/TrainingActivityTheme"
+144-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:157:13-57
+145            android:windowSoftInputMode="adjustResize" >
+145-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:158:13-55
+146        </activity>
+147        <activity
+147-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:161:9-167:20
+148            android:name="com.google.android.accessibility.talkback.labeling.LabelImportActivity"
+148-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:162:13-98
+149            android:excludeFromRecents="true"
+149-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:163:13-46
+150            android:exported="true"
+150-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:164:13-36
+151            android:launchMode="singleInstance"
+151-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:165:13-48
+152            android:theme="@style/DialogStyle" >
+152-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:166:13-47
+153        </activity>
+154
+155        <!-- Custom Label Manager - Summary Activity -->
+156        <activity
+156-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:170:9-184:20
+157            android:name="com.google.android.accessibility.talkback.labeling.LabelManagerSummaryActivity"
+157-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:171:13-106
+158            android:exported="false"
+158-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:172:13-37
+159            android:label="@string/label_manager_summary_title"
+159-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:173:13-64
+160            android:launchMode="singleTop"
+160-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:174:13-43
+161            android:taskAffinity="com.google.android.accessibility.talkback.SettingsAffinity"
+161-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:175:13-94
+162            android:theme="@style/TalkBackSettings" >
+162-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:176:13-52
+163
+164            <!-- This preference activity can receive an implicit intent action -->
+165            <intent-filter>
+165-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:179:13-183:29
+166                <action android:name=".labeling.TalkBackSelectorPreferencesActivity" />
+167
+168                <category android:name="android.intent.category.DEFAULT" />
+168-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:89:17-76
+168-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:89:27-73
+169            </intent-filter>
+170        </activity>
+171
+172        <!-- Custom Label Manager - Package Activity -->
+173        <activity
+173-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:187:9-193:55
+174            android:name="com.google.android.accessibility.talkback.labeling.LabelManagerPackageActivity"
+174-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:188:13-106
+175            android:exported="false"
+175-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:189:13-37
+176            android:label="@string/manage_label"
+176-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:190:13-49
+177            android:launchMode="singleTop"
+177-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:191:13-43
+178            android:taskAffinity="com.google.android.accessibility.talkback.SettingsAffinity"
+178-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:192:13-94
+179            android:theme="@style/TalkBackSettings" />
+179-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:193:13-52
+180
+181        <!-- Gesture Change Notification Activity -->
+182        <activity
+182-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:196:9-205:20
+183            android:name="com.google.android.accessibility.talkback.preference.GestureChangeNotificationActivity"
+183-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:197:13-114
+184            android:directBootAware="true"
+184-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:198:13-43
+185            android:exported="true"
+185-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:199:13-36
+186            android:theme="@style/DialogStyle" >
+186-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:200:13-47
+187            <intent-filter>
+187-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:202:13-204:29
+188                <action android:name="android.intent.action.MAIN" />
+188-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:132:17-69
+188-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:132:25-66
+189            </intent-filter>
+190        </activity>
+191
+192        <!-- Notification Activity used periodically to inform the user of changes -->
+193        <activity
+193-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:208:9-217:20
+194            android:name="com.google.android.accessibility.talkback.NotificationActivity"
+194-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:209:13-90
+195            android:directBootAware="true"
+195-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:210:13-43
+196            android:exported="true"
+196-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:211:13-36
+197            android:theme="@style/DialogStyle" >
+197-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:212:13-47
+198            <intent-filter>
+198-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:202:13-204:29
+199                <action android:name="android.intent.action.MAIN" />
+199-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:132:17-69
+199-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:132:25-66
+200            </intent-filter>
+201        </activity>
+202
+203        <!-- Content provider for custom label data -->
+204        <provider
+204-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:220:9-224:39
+205            android:name="com.google.android.accessibility.talkback.labeling.LabelProvider"
+205-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:221:13-92
+206            android:authorities="group11.bluebird.providers.LabelProvider"
+206-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:222:13-75
+207            android:directBootAware="true"
+207-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:223:13-43
+208            android:exported="true" />
+208-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:224:13-36
+209        <provider
+209-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:225:9-233:20
+210            android:name="androidx.core.content.FileProvider"
+210-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:226:13-62
+211            android:authorities="group11.bluebird.providers.FileProvider"
+211-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:227:13-74
+212            android:exported="false"
+212-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:228:13-37
+213            android:grantUriPermissions="true" >
+213-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:229:13-47
+214            <meta-data
+214-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:230:13-232:54
+215                android:name="android.support.FILE_PROVIDER_PATHS"
+215-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:231:17-67
+216                android:resource="@xml/file_paths" />
+216-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:232:17-51
+217        </provider>
+218
+219        <meta-data
+219-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:235:9-237:58
+220            android:name="support_lift_to_type"
+220-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:236:13-48
+221            android:value="@bool/support_lift_to_type" />
+221-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:237:13-55
+222        <meta-data
+222-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:238:9-240:35
+223            android:name="com.google.mlkit.vision.DEPENDENCIES"
+223-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:239:13-64
+224            android:value="ocr" />
+224-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:240:13-32
+225
+226        <service
+226-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:14:9-28:19
+227            android:name="com.google.android.accessibility.brailleime.BrailleIme"
+227-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:15:13-82
+228            android:directBootAware="true"
+228-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:16:13-43
+229            android:enabled="false"
+229-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:17:13-36
+230            android:exported="true"
+230-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:18:13-36
+231            android:label="@string/braille_ime_service_name"
+231-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:19:13-61
+232            android:permission="android.permission.BIND_INPUT_METHOD" >
+232-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:20:13-70
+233            <intent-filter>
+233-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:21:13-23:29
+234                <action android:name="android.view.InputMethod" />
+234-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:22:17-67
+234-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:22:25-64
+235            </intent-filter>
+236
+237            <meta-data
+237-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:25:13-27:55
+238                android:name="android.view.im"
+238-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:26:17-47
+239                android:resource="@xml/braille_ime" />
+239-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:27:17-52
+240        </service>
+241
+242        <activity
+242-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:30:9-44:20
+243            android:name="com.google.android.accessibility.brailleime.settings.BrailleImePreferencesActivity"
+243-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:31:13-110
+244            android:configChanges="orientation|screenSize"
+244-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:32:13-59
+245            android:exported="true"
+245-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:33:13-36
+246            android:label="@string/braille_keyboard"
+246-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:34:13-53
+247            android:launchMode="singleTop"
+247-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:35:13-43
+248            android:taskAffinity="com.google.android.accessibility.talkback.SettingsAffinity"
+248-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:36:13-94
+249            android:theme="@style/SettingsTheme" >
+249-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:37:13-49
+250            <intent-filter>
+250-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:39:13-43:29
+251                <action android:name=".BrailleImePreferencesActivity" />
+252
+253                <category android:name="android.intent.category.DEFAULT" />
+253-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:89:17-76
+253-->[:talkback] F:\2Study\4Nam4\1Sem1\HMI\bluebird\talkback\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:89:27-73
+254            </intent-filter>
+255        </activity>
+256
+257        <receiver
+257-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:46:9-53:20
+258            android:name="com.google.android.accessibility.brailleime.MyPackageReplacedReceiver"
+258-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:47:13-97
+259            android:enabled="true"
+259-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:48:13-35
+260            android:exported="true" >
+260-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:49:13-36
+261            <intent-filter>
+261-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:50:13-52:29
+262                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+262-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:51:17-84
+262-->[:brailleime] F:\2Study\4Nam4\1Sem1\HMI\bluebird\braille\brailleime\build\intermediates\merged_manifest\phoneDebug\AndroidManifest.xml:51:25-81
+263            </intent-filter>
+264        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+265        <activity
+265-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:18:9-24:45
+266            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+266-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:19:13-100
+267            android:enabled="false"
+267-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:20:13-36
+268            android:exported="false"
+268-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:21:13-37
+269            android:launchMode="singleInstance"
+269-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:22:13-48
+270            android:process=":playcore_missing_splits_activity"
+270-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:23:13-64
+271            android:stateNotNeeded="true" />
+271-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:24:13-42
+272        <activity
+272-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:25:9-29:65
+273            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+273-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:26:13-93
+274            android:exported="false"
+274-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:27:13-37
+275            android:stateNotNeeded="true"
+275-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:28:13-42
+276            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+276-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:29:13-62
+277        <service
+277-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:32:9-39:19
+278            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+278-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:33:13-94
+279            android:enabled="false"
+279-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:34:13-36
+280            android:exported="true" >
+280-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:35:13-36
+281            <meta-data
+281-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:36:13-38:41
+282                android:name="com.google.android.play.core.assetpacks.versionCode"
+282-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:37:17-83
+283                android:value="11003" />
+283-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:38:17-38
+284        </service>
+285        <service
+285-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:40:9-43:40
+286            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+286-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:41:13-95
+287            android:enabled="false"
+287-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:42:13-36
+288            android:exported="false" />
+288-->[com.google.android.play:core:1.10.3] C:\Users\DELL\.gradle\caches\transforms-3\400ba4ec3c67c636325a1efe296cb004\transformed\jetified-core-1.10.3\AndroidManifest.xml:43:13-37
+289
+290        <uses-library
+290-->[com.google.android.support:wearable:2.8.1] C:\Users\DELL\.gradle\caches\transforms-3\c2e2f801adee039422de84039dfb2917\transformed\jetified-wearable-2.8.1\AndroidManifest.xml:10:9-12:40
+291            android:name="com.google.android.wearable"
+291-->[com.google.android.support:wearable:2.8.1] C:\Users\DELL\.gradle\caches\transforms-3\c2e2f801adee039422de84039dfb2917\transformed\jetified-wearable-2.8.1\AndroidManifest.xml:11:13-55
+292            android:required="false" />
+292-->[com.google.android.support:wearable:2.8.1] C:\Users\DELL\.gradle\caches\transforms-3\c2e2f801adee039422de84039dfb2917\transformed\jetified-wearable-2.8.1\AndroidManifest.xml:12:13-37
+293
+294        <service
+294-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:9:9-15:19
+295            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+295-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:10:13-91
+296            android:directBootAware="true"
+296-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:17:13-43
+297            android:exported="false" >
+297-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:11:13-37
+298            <meta-data
+298-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:12:13-14:85
+299                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+299-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:13:17-114
+300                android:value="com.google.firebase.components.ComponentRegistrar" />
+300-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] C:\Users\DELL\.gradle\caches\transforms-3\2a096eed76974eb4944ee6b0511f7518\transformed\jetified-play-services-mlkit-text-recognition-common-19.0.0\AndroidManifest.xml:14:17-82
+301            <meta-data
+301-->[com.google.mlkit:vision-common:17.3.0] C:\Users\DELL\.gradle\caches\transforms-3\faafac25bb0a94cc78a7c6f5e28029e1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+302                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+302-->[com.google.mlkit:vision-common:17.3.0] C:\Users\DELL\.gradle\caches\transforms-3\faafac25bb0a94cc78a7c6f5e28029e1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:13:17-124
+303                android:value="com.google.firebase.components.ComponentRegistrar" />
+303-->[com.google.mlkit:vision-common:17.3.0] C:\Users\DELL\.gradle\caches\transforms-3\faafac25bb0a94cc78a7c6f5e28029e1\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:14:17-82
+304            <meta-data
+304-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:20:13-22:85
+305                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+305-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:21:17-120
+306                android:value="com.google.firebase.components.ComponentRegistrar" />
+306-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:22:17-82
+307        </service>
+308
+309        <provider
+309-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:9:9-13:38
+310            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+310-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:10:13-78
+311            android:authorities="group11.bluebird.mlkitinitprovider"
+311-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:11:13-69
+312            android:exported="false"
+312-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:12:13-37
+313            android:initOrder="99" />
+313-->[com.google.mlkit:common:18.8.0] C:\Users\DELL\.gradle\caches\transforms-3\8fb9f3ac96f56caa26b3954217ffbaf6\transformed\jetified-common-18.8.0\AndroidManifest.xml:13:13-35
+314
+315        <activity
+315-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61e92b5bb9e667873063812bdb162165\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+316            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+316-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61e92b5bb9e667873063812bdb162165\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+317            android:exported="false"
+317-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61e92b5bb9e667873063812bdb162165\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+318            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+318-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\61e92b5bb9e667873063812bdb162165\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+319
+320        <meta-data
+320-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\9cb9819555e6bfd599641c7d60c2ba34\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+321            android:name="com.google.android.gms.version"
+321-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\9cb9819555e6bfd599641c7d60c2ba34\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+322            android:value="@integer/google_play_services_version" />
+322-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\DELL\.gradle\caches\transforms-3\9cb9819555e6bfd599641c7d60c2ba34\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+323
+324        <provider
+324-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+325            android:name="androidx.startup.InitializationProvider"
+325-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+326            android:authorities="group11.bluebird.androidx-startup"
+326-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+327            android:exported="false" >
+327-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+328            <meta-data
+328-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+329                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+329-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+330                android:value="androidx.startup" />
+330-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\be13285621d8247e24cac8d433ed5824\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+331            <meta-data
+331-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\f18df579479bf28e3cfb1784a1bad80e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+332                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+332-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\f18df579479bf28e3cfb1784a1bad80e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+333                android:value="androidx.startup" />
+333-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\f18df579479bf28e3cfb1784a1bad80e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+334        </provider>
+335
+336        <uses-library
+336-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+337            android:name="androidx.window.extensions"
+337-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+338            android:required="false" />
+338-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+339        <uses-library
+339-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+340            android:name="androidx.window.sidecar"
+340-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+341            android:required="false" />
+341-->[androidx.window:window:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\22a806e6e16a645f6cfdb9214cd55cb5\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+342
+343        <service
+343-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+344            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+344-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+345            android:exported="false" >
+345-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+346            <meta-data
+346-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+347                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+347-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+348                android:value="cct" />
+348-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\DELL\.gradle\caches\transforms-3\4cace3d4f85adec29dacbdf5692e7068\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+349        </service>
+350        <service
+350-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+351            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+351-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+352            android:exported="false"
+352-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+353            android:permission="android.permission.BIND_JOB_SERVICE" >
+353-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+354        </service>
+355
+356        <receiver
+356-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+357            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+357-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+358            android:exported="false" />
+358-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\DELL\.gradle\caches\transforms-3\6c29158e9e0f21496c84e6529aa3305d\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+359    </application>
+360
+361</manifest>

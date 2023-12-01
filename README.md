@@ -1,9 +1,9 @@
 # Introduction
 
-This repository contains source code for Google's TalkBack, which is a screen
+This repository contains source code for Bluebird, which is a screen
 reader for blind and visually-impaired users of Android. For usage instructions,
 see
-[TalkBack User Guide](https://support.google.com/accessibility/android/answer/6283677?hl=en).
+[Bluebird User Guide](https://support.google.com/accessibility/android/answer/6283677?hl=en).
 
 ### How to Build
 

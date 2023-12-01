@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="group11.bluebird"
-    android:versionName="TfPu_release_13_0-2023_11_15_1625" >
+    android:versionName="TfPu_release_13_0-2023_12_01_1728" >
     <!--
  Strings with the format ${foo}, such as ${applicationId}, are called
   placeholders, and they get replaced by the build system with the appropriate
@@ -65,8 +65,7 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
-        android:supportsRtl="true"
-        android:testOnly="true" >
+        android:supportsRtl="true" >
         <receiver
             android:name="com.google.android.accessibility.talkback.BootReceiver"
             android:directBootAware="true"

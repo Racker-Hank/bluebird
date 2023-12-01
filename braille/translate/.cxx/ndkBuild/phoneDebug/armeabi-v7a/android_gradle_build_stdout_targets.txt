@@ -1,13 +1,2 @@
-[armeabi-v7a] Compile thumb  : louis <= compileTranslationTable.c
-[armeabi-v7a] Compile thumb  : louis <= logging.c
-[armeabi-v7a] Compile thumb  : louis <= lou_backTranslateString.c
-[armeabi-v7a] Compile thumb  : louis <= lou_translateString.c
-[armeabi-v7a] Compile thumb  : louis <= commonTranslationFunctions.c
-[armeabi-v7a] Compile thumb  : louis <= maketable.c
-[armeabi-v7a] Compile thumb  : louis <= metadata.c
-[armeabi-v7a] Compile thumb  : louis <= pattern.c
-[armeabi-v7a] Compile thumb  : louis <= utils.c
-[armeabi-v7a] SharedLibrary  : liblouis.so
-[armeabi-v7a] Compile++ thumb: louiswrap <= louis_translation.cc
-[armeabi-v7a] Prebuilt       : libc++_shared.so <= <NDK>/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/
-[armeabi-v7a] SharedLibrary  : liblouiswrap.so
+make: Nothing to be done for 'louis'.
+make: Nothing to be done for 'louiswrap'.
